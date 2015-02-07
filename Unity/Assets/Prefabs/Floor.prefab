@@ -75,7 +75,7 @@ Transform:
   m_GameObject: {fileID: 167358}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 10, y: .100000001, z: 10}
+  m_LocalScale: {x: 5, y: .100000001, z: 5}
   m_Children: []
   m_Father: {fileID: 488496}
   m_RootOrder: 2
@@ -87,7 +87,7 @@ Transform:
   m_GameObject: {fileID: 188494}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 20, y: .100000001, z: 20}
+  m_LocalScale: {x: 5, y: .100000001, z: 5}
   m_Children: []
   m_Father: {fileID: 488496}
   m_RootOrder: 0
@@ -112,8 +112,8 @@ Transform:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 188498}
-  m_LocalRotation: {x: .5, y: -.5, z: .5, w: .5}
-  m_LocalPosition: {x: -2.5, y: .100000001, z: 0}
+  m_LocalRotation: {x: -3.09086232e-08, y: .707106829, z: -.707106829, w: -3.09086232e-08}
+  m_LocalPosition: {x: 0, y: .100000001, z: -.75}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 488496}
@@ -197,7 +197,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Font: {fileID: 11400000, guid: 7ec953ba184eeca41ad5a8975a162d2d, type: 2}
   Text: Floor
-  Size: 30
+  Size: 10
   Leading: 0
   Tracking: 0
   ParagraphSpacing: 0
@@ -211,7 +211,7 @@ MonoBehaviour:
   GenerateNormals: 1
   Stationary: 1
   EnableClickSupport: 1
-  DrawGlyphBoundsGizmos: 0
+  DrawGlyphBoundsGizmos: 1
   AutoRebuild: 1
 --- !u!114 &11488498
 MonoBehaviour:
@@ -221,24 +221,54 @@ MonoBehaviour:
   m_GameObject: {fileID: 188498}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 0}
+  m_Script: {fileID: 11500000, guid: 0552fded803111840980d645c15089ee, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  MinDistance: 10
-  MaxDistance: 30
+  MinDistance: 4
+  MaxDistance: 20
   Gradient:
-    key0: {}
-    key1: {}
-    key2: {}
-    key3: {}
-    key4: {}
-    key5: {}
-    key6: {}
-    key7: {}
+    key0:
+      serializedVersion: 2
+      rgba: 16777215
+    key1:
+      serializedVersion: 2
+      rgba: 4294967295
+    key2:
+      serializedVersion: 2
+      rgba: 0
+    key3:
+      serializedVersion: 2
+      rgba: 0
+    key4:
+      serializedVersion: 2
+      rgba: 0
+    key5:
+      serializedVersion: 2
+      rgba: 0
+    key6:
+      serializedVersion: 2
+      rgba: 0
+    key7:
+      serializedVersion: 2
+      rgba: 0
+    ctime0: 0
+    ctime1: 65535
+    ctime2: 0
+    ctime3: 0
+    ctime4: 0
+    ctime5: 0
+    ctime6: 0
+    ctime7: 0
+    atime0: 0
+    atime1: 33539
+    atime2: 65535
+    atime3: 65535
+    atime4: 0
+    atime5: 0
+    atime6: 0
+    atime7: 0
     m_NumColorKeys: 2
     m_NumAlphaKeys: 2
-  _Text: {fileID: 0}
-  _Renderer: {fileID: 0}
 --- !u!1001 &100100000
 Prefab:
   m_ObjectHideFlags: 1
