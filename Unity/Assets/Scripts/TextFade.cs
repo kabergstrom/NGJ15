@@ -4,6 +4,7 @@ using System.Collections;
 [RequireComponent(typeof(TypogenicText))]
 public class TextFade : MonoBehaviour
 {
+public TextFadeSettings Settings;
     public TextFadeType Type;
     TypogenicText _Text;
     MeshRenderer _Renderer;
@@ -16,7 +17,7 @@ public class TextFade : MonoBehaviour
     
     void Update()
     {
-        var settings = TextFadeSettings.GetSettings().GetData(Type);
+        var settings = Settings.GetData(Type);
         var cameraPos = Camera.main.transform.position;
         Vector3 textCenter = new Vector3(_Text.Width, -_Text.Height, 0);
         Vector3 position = transform.TransformPoint(textCenter);

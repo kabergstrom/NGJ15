@@ -35,6 +35,90 @@ ModelImporter:
     100058: Room_wall02
     100060: Stairs01
     100062: Stairs02
+    100064: HattHylla01
+    100066: pCube1
+    100068: pCube10
+    100070: pCube11
+    100072: pCube12
+    100074: pCube13
+    100076: pCube14
+    100078: pCube15
+    100080: pCube16
+    100082: pCube17
+    100084: pCube18
+    100086: pCube2
+    100088: pCube3
+    100090: pCube4
+    100092: pCube5
+    100094: pCube6
+    100096: pCube7
+    100098: pCube8
+    100100: pCube9
+    100102: pCylinder1
+    100104: pCylinder2
+    100106: pCylinder3
+    100108: polySurface1
+    100110: polySurface10
+    100112: polySurface11
+    100114: polySurface12
+    100116: polySurface13
+    100118: polySurface14
+    100120: polySurface15
+    100122: polySurface16
+    100124: polySurface2
+    100126: polySurface3
+    100128: polySurface4
+    100130: polySurface5
+    100132: polySurface6
+    100134: polySurface7
+    100136: polySurface8
+    100138: polySurface9
+    100140: pPlane1
+    100142: pPlane2
+    100144: pPlane3
+    100146: transform1
+    100148: transform10
+    100150: transform11
+    100152: transform12
+    100154: transform13
+    100156: transform14
+    100158: transform15
+    100160: transform16
+    100162: transform17
+    100164: transform18
+    100166: transform19
+    100168: transform2
+    100170: transform20
+    100172: transform21
+    100174: transform22
+    100176: transform23
+    100178: transform24
+    100180: transform25
+    100182: transform26
+    100184: transform27
+    100186: transform28
+    100188: transform29
+    100190: transform3
+    100192: transform30
+    100194: transform31
+    100196: transform32
+    100198: transform33
+    100200: transform34
+    100202: transform35
+    100204: transform4
+    100206: transform5
+    100208: transform6
+    100210: transform7
+    100212: transform8
+    100214: transform9
+    100216: VallkommstMatta01
+    100218: Brev01
+    100220: Dorr01
+    100222: JackHangare01
+    100224: SkoHylla
+    100226: Tavla
+    100228: SkoHylla01
+    100230: Sofa01
     400000: Bathroom_Doorframe01
     400002: BathRoom_Floor
     400004: Bathroom_Wall01
@@ -67,6 +151,90 @@ ModelImporter:
     400058: Room_wall02
     400060: Stairs01
     400062: Stairs02
+    400064: HattHylla01
+    400066: pCube1
+    400068: pCube10
+    400070: pCube11
+    400072: pCube12
+    400074: pCube13
+    400076: pCube14
+    400078: pCube15
+    400080: pCube16
+    400082: pCube17
+    400084: pCube18
+    400086: pCube2
+    400088: pCube3
+    400090: pCube4
+    400092: pCube5
+    400094: pCube6
+    400096: pCube7
+    400098: pCube8
+    400100: pCube9
+    400102: pCylinder1
+    400104: pCylinder2
+    400106: pCylinder3
+    400108: polySurface1
+    400110: polySurface10
+    400112: polySurface11
+    400114: polySurface12
+    400116: polySurface13
+    400118: polySurface14
+    400120: polySurface15
+    400122: polySurface16
+    400124: polySurface2
+    400126: polySurface3
+    400128: polySurface4
+    400130: polySurface5
+    400132: polySurface6
+    400134: polySurface7
+    400136: polySurface8
+    400138: polySurface9
+    400140: pPlane1
+    400142: pPlane2
+    400144: pPlane3
+    400146: transform1
+    400148: transform10
+    400150: transform11
+    400152: transform12
+    400154: transform13
+    400156: transform14
+    400158: transform15
+    400160: transform16
+    400162: transform17
+    400164: transform18
+    400166: transform19
+    400168: transform2
+    400170: transform20
+    400172: transform21
+    400174: transform22
+    400176: transform23
+    400178: transform24
+    400180: transform25
+    400182: transform26
+    400184: transform27
+    400186: transform28
+    400188: transform29
+    400190: transform3
+    400192: transform30
+    400194: transform31
+    400196: transform32
+    400198: transform33
+    400200: transform34
+    400202: transform35
+    400204: transform4
+    400206: transform5
+    400208: transform6
+    400210: transform7
+    400212: transform8
+    400214: transform9
+    400216: VallkommstMatta01
+    400218: Brev01
+    400220: Dorr01
+    400222: JackHangare01
+    400224: SkoHylla
+    400226: Tavla
+    400228: SkoHylla01
+    400230: Sofa01
     2300000: Bathroom_Doorframe01
     2300002: BathRoom_Floor
     2300004: Bathroom_Wall01
@@ -98,6 +266,20 @@ ModelImporter:
     2300056: Room_wall02
     2300058: Stairs01
     2300060: Stairs02
+    2300062: HattHylla01
+    2300064: pCube17
+    2300066: polySurface1
+    2300068: polySurface12
+    2300070: polySurface13
+    2300072: polySurface16
+    2300074: VallkommstMatta01
+    2300076: Brev01
+    2300078: Dorr01
+    2300080: JackHangare01
+    2300082: SkoHylla
+    2300084: Tavla
+    2300086: SkoHylla01
+    2300088: Sofa01
     3300000: Bathroom_Doorframe01
     3300002: BathRoom_Floor
     3300004: Bathroom_Wall01
@@ -129,6 +311,20 @@ ModelImporter:
     3300056: Room_wall02
     3300058: Stairs01
     3300060: Stairs02
+    3300062: HattHylla01
+    3300064: pCube17
+    3300066: polySurface1
+    3300068: polySurface12
+    3300070: polySurface13
+    3300072: polySurface16
+    3300074: VallkommstMatta01
+    3300076: Brev01
+    3300078: Dorr01
+    3300080: JackHangare01
+    3300082: SkoHylla
+    3300084: Tavla
+    3300086: SkoHylla01
+    3300088: Sofa01
     4300000: Stairs01
     4300002: Stairs02
     4300004: BathRoom_Floor
@@ -160,6 +356,20 @@ ModelImporter:
     4300056: Room_DoorFrame02
     4300058: Room_DoorFrame03
     4300060: BedRoom_Wall01
+    4300062: HattHylla01
+    4300064: VallkommstMatta01
+    4300066: polySurface1
+    4300068: polySurface12
+    4300070: polySurface13
+    4300072: pCube17
+    4300074: polySurface16
+    4300076: JackHangare01
+    4300078: SkoHylla
+    4300080: Brev01
+    4300082: Tavla
+    4300084: Dorr01
+    4300086: SkoHylla01
+    4300088: Sofa01
     9500000: //RootNode
   materials:
     importMaterials: 1
