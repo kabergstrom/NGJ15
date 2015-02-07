@@ -18,18 +18,29 @@ public class WeaponSystem : MonoBehaviour
     }
 
     [System.Serializable]
+    struct InventoryItemData
+    {
+        public GameObject Crowbar;
+        public GameObject NormalGun;
+        public GameObject BetterGun;
+    }
+
+    [System.Serializable]
     struct WeaponData
     {
         public Vector3 GranadeThrowForce;
         public float BulletFireForce;
-        public float PrimaryFireRate;
-        public float SecondaryFireRate;
+        public float NormalGunFireRate;
+        public float BetterGunFireRate;
+        public float MeleeHitRate;
     }
 
     [SerializeField]
     private PrefabData Prefabs;
     [SerializeField]
     private InputData InputSettings;
+    [SerializeField]
+    private InventoryItemData InventoryItems;
     [SerializeField]
     private WeaponData WeaponSettings;
 
@@ -39,47 +50,72 @@ public class WeaponSystem : MonoBehaviour
     private Transform FireDirection;
 
     public int GranadeCount;
+    public int BetterGunAmmo;
 
-    private float _TimeUntilNextBulletPrimary;
-    private float _TimeUntilNextBulletSecondary;
+    enum Weapons { Crowbar, Gun, BetterGun }
+
+    private Weapons _CurrentWeapon;
+    private float _TimeUntilNextNormalBullet;
+    private float _TimeUntilNextBetterBullet;
 
     private Transform _Transform;
     
 	void Start ()
     {
+        _CurrentWeapon = Weapons.Crowbar;
         _Transform = GetComponent<Transform>();
 	}
 	
 	void Update ()
     {
-        DoGun();
+        DoWeapons();
         DoGranade();
 	}
 
-    void DoGun()
+    void DoWeapons()
     {
-        if (Input.GetMouseButton(0) && Time.time > _TimeUntilNextBulletPrimary)
+        bool fiering = Input.GetMouseButton(0);
+        switch (_CurrentWeapon)
         {
-            _TimeUntilNextBulletPrimary = Time.time + (1 / PrimaryFireRate);
-
-            GameObject obj = (GameObject)Instantiate(NormalBulletPrefab, FireDirection.position, FireDirection.rotation);
-            obj.GetComponent<Rigidbody>().AddForce(FireDirection.forward * BulletFireForce, ForceMode.Impulse);
+            case Weapons.Crowbar:
+                DoCrowbar();
+                break;
+            case Weapons.Gun:
+                DoGun(fiering, ref _TimeUntilNextNormalBullet, WeaponSettings.NormalGunFireRate, Prefabs.NormalBulletPrefab);
+                break;
+            case Weapons.BetterGun:
+                DoGun(fiering, ref _TimeUntilNextBetterBullet, WeaponSettings.BetterGunFireRate, Prefabs.BetterBulletPrefab);
+                break;
         }
-        if (Input.GetMouseButton(2) && Time.time > _TimeUntilNextBulletSecondary)
+
+        if (Input.GetMouseButton(2))
         {
-            _TimeUntilNextBulletSecondary = Time.time + (1 / SecondaryFireRate);
-
-            GameObject obj = (GameObject)Instantiate(SecondaryBulletPrefab, FireDirection.position, FireDirection.rotation);
-            obj.GetComponent<Rigidbody>().AddForce(FireDirection.forward * BulletFireForce, ForceMode.Impulse);
+            int next = (int)_CurrentWeapon + 1;
+            _CurrentWeapon = (Weapons)(next % 3);
         }
+    }
+
+    void DoGun(bool fiering, ref float nextShotTime, float fireRate, GameObject bulletPrefab)
+    {
+        if (Time.time > nextShotTime)
+        {
+            nextShotTime = Time.time + (1 / fireRate);
+
+            GameObject obj = (GameObject)Instantiate(bulletPrefab, FireDirection.position, FireDirection.rotation);
+            obj.GetComponent<Rigidbody>().AddForce(FireDirection.forward * WeaponSettings.BulletFireForce, ForceMode.Impulse);
+        }
+    }
+
+    void DoCrowbar()
+    {
     }
 
     void DoGranade()
     {
-        if (GranadeCount > 0 && Input.GetKeyUp(GranadeKey))
+        if (GranadeCount > 0 && Input.GetKeyUp(InputSettings.GranadeKey))
         {
-            GameObject obj = (GameObject)Instantiate(GranadePrefab, GranadeStartPos.position, Quaternion.identity);
-            obj.GetComponent<Rigidbody>().AddForce(_Transform.TransformVector(GranadeThrowForce), ForceMode.Impulse);
+            GameObject obj = (GameObject)Instantiate(Prefabs.GranadePrefab, GranadeStartPos.position, Quaternion.identity);
+            obj.GetComponent<Rigidbody>().AddForce(_Transform.TransformVector(WeaponSettings.GranadeThrowForce), ForceMode.Impulse);
             GranadeCount--;
         }
     }
