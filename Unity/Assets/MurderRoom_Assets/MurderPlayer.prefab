@@ -213,7 +213,7 @@ MonoBehaviour:
     VerticalSensitvity: 5
     HorizontalLook: Mouse X
     VerticalLook: Mouse Y
-  AccelerationFactor: 18
+  AccelerationFactor: 30
   Acceleration:
     serializedVersion: 2
     m_Curve:
@@ -229,7 +229,7 @@ MonoBehaviour:
       tangentMode: 0
     m_PreInfinity: 2
     m_PostInfinity: 2
-  FrictionFactor: 15
+  FrictionFactor: 20
   Friction:
     serializedVersion: 2
     m_Curve:
