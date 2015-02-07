@@ -1,10 +1,8 @@
 ﻿using UnityEngine;
 using System.Collections;
 
-public class Bullet : MonoBehaviour
+public class Bullet : DamageEntity
 {
-    public int Damage;
-
     void Start()
     {
         gameObject.tag = "Bullet";
