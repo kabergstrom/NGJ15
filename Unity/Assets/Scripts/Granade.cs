@@ -22,6 +22,9 @@ public class Granade : MonoBehaviour
         {
             foreach (var hit in Physics.OverlapSphere(transform.position, ExplotionRadius, _LayerMask))
             {
+                if (hit == gameObject)
+                    continue;
+
                 float dist = Vector3.Distance(transform.position, hit.transform.position);
                 DamageReceiver obj = hit.GetComponent<DamageReceiver>();
                 obj.Health -= (int)(Damage * (1 - (dist / ExplotionRadius)));
