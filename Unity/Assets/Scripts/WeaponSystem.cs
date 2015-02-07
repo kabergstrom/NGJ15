@@ -62,11 +62,13 @@ public class WeaponSystem : MonoBehaviour
 
     private Transform _Transform;
     private Animator _CrowbarAnim;
+    private Crowbar _Crowbar;
 
     void Start()
     {
         _CurrentWeapon = Weapons.Crowbar;
         _Transform = GetComponent<Transform>();
+        _Crowbar = InventoryItems.Crowbar.GetComponentInChildren<Crowbar>();
         _CrowbarAnim = InventoryItems.Crowbar.GetComponent<Animator>();
         _CrowbarAnim.Play("Idle");
     }
@@ -140,6 +142,7 @@ public class WeaponSystem : MonoBehaviour
         {
             _CrowbarAnim.Play("Hit");
             _TimeUntilNextMeleeHit = Time.time + (1 / WeaponSettings.MeleeHitRate);
+            _Crowbar.InHit = false;
         }
     }
 

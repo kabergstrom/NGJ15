@@ -77,8 +77,10 @@ public class FPSMovement : MonoBehaviour
     void DoWalking()
     {
         Vector3 velocity = _Rigibody.velocity;
-        if(velocity.magnitude > MaxSpeed)
+        if (velocity.magnitude > MaxSpeed)
             _Rigibody.velocity = velocity.normalized * MaxSpeed;
+        else if (velocity.magnitude < 0.5f)
+            _Rigibody.velocity = Vector3.zero;
 
         CurrentSpeed = _Rigibody.velocity.magnitude;
 
@@ -134,10 +136,10 @@ public class FPSMovement : MonoBehaviour
         YRotation += Input.GetAxis(InputSettings.HorizontalLook) * InputSettings.HorizontalSensitvity;
 
         float xRot = ClampAngle(XRotation, -90, 90);
-        float yRot = ClampAngle(YRotation, 0, 360);
+        //float yRot = ClampAngle(YRotation, 0, 360);
 
         Quaternion xQuaternion = Quaternion.AngleAxis(xRot, Vector3.left);
-        Quaternion yQuaternion = Quaternion.AngleAxis(yRot, Vector3.up);
+        Quaternion yQuaternion = Quaternion.AngleAxis(YRotation, Vector3.up);
 
         HeadCamera.localRotation = _OriginalRotation * xQuaternion;
         _Transform.localRotation = _OriginalHeadRotation * yQuaternion;
