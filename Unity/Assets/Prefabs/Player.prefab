@@ -28,6 +28,7 @@ GameObject:
   - 23: {fileID: 2386272}
   - 114: {fileID: 11486272}
   - 54: {fileID: 5486272}
+  - 114: {fileID: 11488006}
   m_Layer: 0
   m_Name: Player
   m_TagString: Untagged
@@ -46,7 +47,7 @@ GameObject:
   - 20: {fileID: 2086272}
   - 92: {fileID: 9286272}
   - 124: {fileID: 12486272}
-  - 81: {fileID: 8186272}
+  - 114: {fileID: 11488008}
   m_Layer: 0
   m_Name: Main Camera
   m_TagString: MainCamera
@@ -132,7 +133,7 @@ Renderer:
   m_GameObject: {fileID: 186274}
   m_Enabled: 1
   m_CastShadows: 1
-  m_ReceiveShadows: 1
+  m_ReceiveShadows: 0
   m_LightmapIndex: 255
   m_LightmapTilingOffset: {x: 1, y: 1, z: 0, w: 0}
   m_Materials:
@@ -166,13 +167,6 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 80
   m_CollisionDetection: 0
---- !u!81 &8186272
-AudioListener:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 186276}
-  m_Enabled: 1
 --- !u!92 &9286272
 Behaviour:
   m_ObjectHideFlags: 1
@@ -261,6 +255,33 @@ MonoBehaviour:
     m_Bits: 1
   HeadCamera: {fileID: 486276}
   CurrentSpeed: 0
+--- !u!114 &11488006
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 186274}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f871dda20b486c84eacd816d0f5714d5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  DebugPlaySound: 1
+  StepAsset: {fileID: 11400000, guid: 3bd35ced04d1b754b9c72e7a1386d642, type: 2}
+  StepThreshold: 40
+  StepWeight: 4
+--- !u!114 &11488008
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 186276}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dcc06d36d3b753d489e4f95913ec574a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  pluginPaths: []
 --- !u!124 &12486272
 Behaviour:
   m_ObjectHideFlags: 1

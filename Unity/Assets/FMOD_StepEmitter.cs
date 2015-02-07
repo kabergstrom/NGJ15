@@ -13,6 +13,7 @@ public class FMOD_StepEmitter : MonoBehaviour {
 	[SerializeField] private bool DebugPlaySound;
 	[SerializeField] private FMODAsset StepAsset;
 	[SerializeField] private float StepThreshold;
+	[SerializeField] private float StepWeight;
 	private float _PlayerSpeed;
 	private float _MotionAccumulated;
 	private FPSMovement _MovementScript;
@@ -37,7 +38,10 @@ public class FMOD_StepEmitter : MonoBehaviour {
 		}
 		else
 		{
-			
+			if (_PlayerSpeed > 0.5f)
+			{
+				_MotionAccumulated += _PlayerSpeed / StepWeight;
+			}
 		}
 	}
 }
