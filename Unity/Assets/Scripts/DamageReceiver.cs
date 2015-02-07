@@ -14,7 +14,11 @@ public class DamageReceiver : MonoBehaviour
     {
         if(Health <= 0)
         {
-            Destroy(gameObject);
+            if (gameObject.tag.Equals("Player"))
+            {
+            }
+            else
+                Destroy(gameObject);
         }
     }
 
@@ -22,14 +26,9 @@ public class DamageReceiver : MonoBehaviour
     {
         if (collision.gameObject.tag.Equals("Bullet"))
         {
-            Bullet obj = collision.gameObject.GetComponent<Bullet>();
+            DamageEntity obj = collision.gameObject.GetComponent<DamageEntity>();
             Health -= obj.Damage;
-            if (gameObject.tag.Equals("Player"))
-            {
-
-            }
-            else
-                Destroy(collision.gameObject);
+            Destroy(collision.gameObject);
         }
     }
 }

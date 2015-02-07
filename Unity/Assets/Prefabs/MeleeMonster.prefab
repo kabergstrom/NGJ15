@@ -84,7 +84,7 @@ GameObject:
   - 114: {fileID: 11476280}
   - 195: {fileID: 19502788}
   m_Layer: 8
-  m_Name: Monster
+  m_Name: MeleeMonster
   m_TagString: Enemy
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -164,8 +164,8 @@ Transform:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 139720}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -46.2999992, y: 3.16000009, z: -24.5300007}
+  m_LocalRotation: {x: 0, y: .99911499, z: 0, w: -.0420635715}
+  m_LocalPosition: {x: -47.8790894, y: 3.16000009, z: -19.9831181}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 439718}
@@ -438,7 +438,7 @@ MonoBehaviour:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 139720}
-  m_Enabled: 0
+  m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 5699ee74c289e7a4fb685d49691828b2, type: 3}
   m_Name: 
@@ -449,7 +449,7 @@ NavMeshAgent:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 139720}
-  m_Enabled: 0
+  m_Enabled: 1
   m_Radius: .5
   m_Speed: 3.5
   m_Acceleration: 8

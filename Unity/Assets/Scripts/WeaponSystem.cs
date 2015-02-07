@@ -62,6 +62,8 @@ public class WeaponSystem : MonoBehaviour
 
     private Transform _Transform;
     private Animator _CrowbarAnim;
+    private Animator _NormalGunAnim;
+    private Animator _BetterGunAnim;
     private Crowbar _Crowbar;
 
     void Start()
@@ -70,6 +72,8 @@ public class WeaponSystem : MonoBehaviour
         _Transform = GetComponent<Transform>();
         _Crowbar = InventoryItems.Crowbar.GetComponentInChildren<Crowbar>();
         _CrowbarAnim = InventoryItems.Crowbar.GetComponent<Animator>();
+        _NormalGunAnim = InventoryItems.NormalGun.GetComponent<Animator>();
+        _BetterGunAnim = InventoryItems.BetterGun.GetComponent<Animator>();
         _CrowbarAnim.Play("Idle");
     }
 
@@ -91,10 +95,10 @@ public class WeaponSystem : MonoBehaviour
                 break;
             case Weapons.NormalGun:
                 int ammo = 1;
-                DoGun(fiering, ref _TimeUntilNextNormalBullet, WeaponSettings.NormalGunFireRate, ref ammo, Prefabs.NormalBulletPrefab);
+                DoGun(fiering, ref _TimeUntilNextNormalBullet, WeaponSettings.NormalGunFireRate, ref ammo, Prefabs.NormalBulletPrefab, _NormalGunAnim);
                 break;
             case Weapons.BetterGun:
-                DoGun(fiering, ref _TimeUntilNextBetterBullet, WeaponSettings.BetterGunFireRate, ref BetterGunAmmo, Prefabs.BetterBulletPrefab);
+                DoGun(fiering, ref _TimeUntilNextBetterBullet, WeaponSettings.BetterGunFireRate, ref BetterGunAmmo, Prefabs.BetterBulletPrefab, _BetterGunAnim);
                 break;
         }
 
@@ -124,10 +128,11 @@ public class WeaponSystem : MonoBehaviour
         }
     }
 
-    void DoGun(bool fiering, ref float nextShotTime, float fireRate, ref int ammo, GameObject bulletPrefab)
+    void DoGun(bool fiering, ref float nextShotTime, float fireRate, ref int ammo, GameObject bulletPrefab, Animator anim)
     {
         if (fiering && Time.time > nextShotTime)
         {
+            anim.Play("Fire");
             nextShotTime = Time.time + (1 / fireRate);
             ammo--;
 

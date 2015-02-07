@@ -11,4 +11,15 @@ public class MenuItems
 
         Selection.activeObject = settings;
     }
+
+	[MenuItem("Assets/Create/Settings/Murder Settings")]
+    static void CreateMurderSettings()
+    {
+        var settings = ScriptableObject.CreateInstance<MurderSettings>();
+        AssetDatabase.CreateAsset(settings, "Assets/NEW " + typeof(MurderSettings).FullName + ".asset");
+
+        Selection.activeObject = settings;
+    }
+
+
 }
