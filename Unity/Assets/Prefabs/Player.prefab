@@ -199,9 +199,10 @@ GameObject:
   - 114: {fileID: 11423946}
   - 54: {fileID: 5423946}
   - 114: {fileID: 11404432}
+  - 114: {fileID: 11426448}
   m_Layer: 0
   m_Name: Player
-  m_TagString: Untagged
+  m_TagString: Player
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -993,6 +994,18 @@ MonoBehaviour:
     m_Bits: 1
   HeadCamera: {fileID: 423950}
   CurrentSpeed: 0
+--- !u!114 &11426448
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 123954}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 12310abd197246e45b1593b8f28a1d9a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Health: 11
 --- !u!114 &11429196
 MonoBehaviour:
   m_ObjectHideFlags: 1

@@ -7,7 +7,6 @@ public class DamageReceiver : MonoBehaviour
 
 	void Start ()
     {
-        gameObject.tag = "Enemy";
         gameObject.layer = LayerMask.NameToLayer("BulletHit");
 	}
 
@@ -25,7 +24,12 @@ public class DamageReceiver : MonoBehaviour
         {
             Bullet obj = collision.gameObject.GetComponent<Bullet>();
             Health -= obj.Damage;
-            Destroy(collision.gameObject);
+            if (gameObject.tag.Equals("Player"))
+            {
+
+            }
+            else
+                Destroy(collision.gameObject);
         }
     }
 }
