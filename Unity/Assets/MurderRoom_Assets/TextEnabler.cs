@@ -19,11 +19,7 @@ public class TextEnabler : MonoBehaviour
 	}
 	
 	public void UpdateVisible()
-	{
-		WhenNormal = Settings.SuspectsNothing();
-		WhenCheating = Settings.SuspectsCheating();
-		WhenMurder = Settings.SuspectsMurder();
-		
+	{	
 		bool visible = ((Settings.SuspectsNothing() && VisibleWhenNormal) ||
 		(Settings.SuspectsCheating() && VisibleWhenCheating) || 
 			(Settings.SuspectsMurder() && VisibleWhenMurder));
