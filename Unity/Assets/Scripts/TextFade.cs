@@ -4,6 +4,7 @@ using System.Collections;
 [RequireComponent(typeof(TypogenicText))]
 public class TextFade : MonoBehaviour
 {
+    public TextFadeType Type;
     TypogenicText _Text;
     MeshRenderer _Renderer;
     
@@ -15,11 +16,27 @@ public class TextFade : MonoBehaviour
     
     void Update()
     {
-        var settings = TextFadeSettings.GetSettings();
-        var distance = Vector3.Distance(Camera.main.transform.position, transform.position);
+        var settings = TextFadeSettings.GetSettings().GetData(Type);
+        var cameraPos = Camera.main.transform.position;
+        Vector3 textCenter = new Vector3(_Text.Width, -_Text.Height, 0);
+        Vector3 position = transform.TransformPoint(textCenter);
+        Bounds bounds = new Bounds(transform.position, textCenter);
+        var distance = Mathf.Sqrt(bounds.SqrDistance(cameraPos));
+         
+        Vector3 dir =  cameraPos - position;
+        if (dir == Vector3.zero)
+            dir = transform.forward;
+        float dot = Vector3.Dot(dir.normalized, -transform.forward);
+        
+
+        
         float minDistance = settings.MinDistance.Evaluate(_Text.Size);
         float maxDistance = settings.MaxDistance.Evaluate(_Text.Size);
         float t = (distance - minDistance) / (maxDistance - minDistance);
+        if (dot < 0)
+            t = 1f;
+        else
+            t *= (1-dot) * (1 - settings.ViewDirFactor) + settings.ViewDirFactor;
         if (t >= 1.0f && _Renderer.enabled)
         {
             _Renderer.enabled = false;
