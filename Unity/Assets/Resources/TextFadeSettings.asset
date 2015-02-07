@@ -1,0 +1,96 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ffef82f8a700d4780adbd1e673076220, type: 3}
+  m_Name: TextFadeSettings
+  m_EditorClassIdentifier: 
+  MinDistance:
+    serializedVersion: 2
+    m_Curve:
+    - time: 0
+      value: 1
+      inSlope: .443925023
+      outSlope: .443925023
+      tangentMode: 10
+    - time: 46.1063576
+      value: 21.4677658
+      inSlope: .898058593
+      outSlope: .898058593
+      tangentMode: 10
+    - time: 400
+      value: 500
+      inSlope: 1.35219216
+      outSlope: 1.35219216
+      tangentMode: 10
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+  MaxDistance:
+    serializedVersion: 2
+    m_Curve:
+    - time: 0
+      value: 8.31135559
+      inSlope: .576539397
+      outSlope: .576539397
+      tangentMode: 10
+    - time: 38.6714134
+      value: 30.6069489
+      inSlope: .937807381
+      outSlope: .937807381
+      tangentMode: 10
+    - time: 400
+      value: 500
+      inSlope: 1.29907537
+      outSlope: 1.29907537
+      tangentMode: 10
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+  FadeGradient:
+    key0:
+      serializedVersion: 2
+      rgba: 4294967295
+    key1:
+      serializedVersion: 2
+      rgba: 16777215
+    key2:
+      serializedVersion: 2
+      rgba: 0
+    key3:
+      serializedVersion: 2
+      rgba: 0
+    key4:
+      serializedVersion: 2
+      rgba: 0
+    key5:
+      serializedVersion: 2
+      rgba: 0
+    key6:
+      serializedVersion: 2
+      rgba: 0
+    key7:
+      serializedVersion: 2
+      rgba: 0
+    ctime0: 0
+    ctime1: 65535
+    ctime2: 0
+    ctime3: 0
+    ctime4: 0
+    ctime5: 0
+    ctime6: 0
+    ctime7: 0
+    atime0: 0
+    atime1: 65535
+    atime2: 0
+    atime3: 0
+    atime4: 0
+    atime5: 0
+    atime6: 0
+    atime7: 0
+    m_NumColorKeys: 2
+    m_NumAlphaKeys: 2

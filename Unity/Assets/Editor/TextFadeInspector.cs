@@ -13,9 +13,4 @@ public class TextFadeInspector : Editor
     }
 
 
-    void OnSceneGUI()
-    {
-        Fade.MinDistance = Handles.RadiusHandle(Quaternion.identity, Fade.transform.position, Fade.MinDistance);
-        Fade.MaxDistance = Handles.RadiusHandle(Quaternion.identity, Fade.transform.position, Fade.MaxDistance);
-    }
 }
