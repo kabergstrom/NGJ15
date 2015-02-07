@@ -119,6 +119,32 @@ ModelImporter:
     100226: Tavla
     100228: SkoHylla01
     100230: Sofa01
+    100232: Bathroom_Door01
+    100234: BathroomMirror
+    100236: Bathrub01
+    100238: Byra01
+    100240: Byra02
+    100242: CofeTable01
+    100244: DodensByra01
+    100246: Dorr03
+    100248: Fonster02
+    100250: Fonster03
+    100252: Fonster04
+    100254: Fonster05
+    100256: Fonster06
+    100258: Fonster07
+    100260: Matta01
+    100262: Nattduksbord01
+    100264: obaddadSang01
+    100266: Racke01
+    100268: Sink01
+    100270: Skrivord01
+    100272: Tavla1
+    100274: Tavla2
+    100276: Tavla3
+    100278: Tickets01
+    100280: Tv01
+    100282: TvBord01
     400000: Bathroom_Doorframe01
     400002: BathRoom_Floor
     400004: Bathroom_Wall01
@@ -235,6 +261,32 @@ ModelImporter:
     400226: Tavla
     400228: SkoHylla01
     400230: Sofa01
+    400232: Bathroom_Door01
+    400234: BathroomMirror
+    400236: Bathrub01
+    400238: Byra01
+    400240: Byra02
+    400242: CofeTable01
+    400244: DodensByra01
+    400246: Dorr03
+    400248: Fonster02
+    400250: Fonster03
+    400252: Fonster04
+    400254: Fonster05
+    400256: Fonster06
+    400258: Fonster07
+    400260: Matta01
+    400262: Nattduksbord01
+    400264: obaddadSang01
+    400266: Racke01
+    400268: Sink01
+    400270: Skrivord01
+    400272: Tavla1
+    400274: Tavla2
+    400276: Tavla3
+    400278: Tickets01
+    400280: Tv01
+    400282: TvBord01
     2300000: Bathroom_Doorframe01
     2300002: BathRoom_Floor
     2300004: Bathroom_Wall01
@@ -280,6 +332,35 @@ ModelImporter:
     2300084: Tavla
     2300086: SkoHylla01
     2300088: Sofa01
+    2300090: Bathroom_Door01
+    2300092: BathroomMirror
+    2300094: Bathrub01
+    2300096: Byra01
+    2300098: Byra02
+    2300100: CofeTable01
+    2300102: DodensByra01
+    2300104: Dorr03
+    2300106: Fonster02
+    2300108: Fonster03
+    2300110: Fonster04
+    2300112: Fonster05
+    2300114: Fonster06
+    2300116: Fonster07
+    2300118: Matta01
+    2300120: Nattduksbord01
+    2300122: obaddadSang01
+    2300124: polySurface2
+    2300126: polySurface3
+    2300128: polySurface4
+    2300130: Racke01
+    2300132: Sink01
+    2300134: Skrivord01
+    2300136: Tavla1
+    2300138: Tavla2
+    2300140: Tavla3
+    2300142: Tickets01
+    2300144: Tv01
+    2300146: TvBord01
     3300000: Bathroom_Doorframe01
     3300002: BathRoom_Floor
     3300004: Bathroom_Wall01
@@ -325,6 +406,35 @@ ModelImporter:
     3300084: Tavla
     3300086: SkoHylla01
     3300088: Sofa01
+    3300090: Bathroom_Door01
+    3300092: BathroomMirror
+    3300094: Bathrub01
+    3300096: Byra01
+    3300098: Byra02
+    3300100: CofeTable01
+    3300102: DodensByra01
+    3300104: Dorr03
+    3300106: Fonster02
+    3300108: Fonster03
+    3300110: Fonster04
+    3300112: Fonster05
+    3300114: Fonster06
+    3300116: Fonster07
+    3300118: Matta01
+    3300120: Nattduksbord01
+    3300122: obaddadSang01
+    3300124: polySurface2
+    3300126: polySurface3
+    3300128: polySurface4
+    3300130: Racke01
+    3300132: Sink01
+    3300134: Skrivord01
+    3300136: Tavla1
+    3300138: Tavla2
+    3300140: Tavla3
+    3300142: Tickets01
+    3300144: Tv01
+    3300146: TvBord01
     4300000: Stairs01
     4300002: Stairs02
     4300004: BathRoom_Floor
@@ -370,6 +480,35 @@ ModelImporter:
     4300084: Dorr01
     4300086: SkoHylla01
     4300088: Sofa01
+    4300090: TvBord01
+    4300092: Tv01
+    4300094: Matta01
+    4300096: CofeTable01
+    4300098: Racke01
+    4300100: Byra01
+    4300102: obaddadSang01
+    4300104: DodensByra01
+    4300106: Nattduksbord01
+    4300108: Skrivord01
+    4300110: Byra02
+    4300112: Tavla1
+    4300114: Tavla2
+    4300116: Tavla3
+    4300118: Tickets01
+    4300120: Fonster02
+    4300122: Fonster03
+    4300124: Fonster04
+    4300126: Fonster05
+    4300128: Fonster06
+    4300130: Fonster07
+    4300132: polySurface2
+    4300134: polySurface3
+    4300136: polySurface4
+    4300138: Dorr03
+    4300140: Bathrub01
+    4300142: BathroomMirror
+    4300144: Sink01
+    4300146: Bathroom_Door01
     9500000: //RootNode
   materials:
     importMaterials: 1
