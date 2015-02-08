@@ -11,6 +11,7 @@ GameObject:
   - 33: {fileID: 3313418}
   - 23: {fileID: 2313418}
   - 114: {fileID: 11413418}
+  - 114: {fileID: 11405240}
   m_Layer: 8
   m_Name: Text
   m_TagString: Untagged
@@ -101,6 +102,7 @@ GameObject:
   - 33: {fileID: 3339722}
   - 23: {fileID: 2339722}
   - 114: {fileID: 11439720}
+  - 114: {fileID: 11423682}
   m_Layer: 8
   m_Name: Text
   m_TagString: Untagged
@@ -164,8 +166,8 @@ Transform:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 139720}
-  m_LocalRotation: {x: 0, y: .99911499, z: 0, w: -.0420635715}
-  m_LocalPosition: {x: -47.8790894, y: 3.16000009, z: -19.9831181}
+  m_LocalRotation: {x: 0, y: .577895701, z: 0, w: .816110671}
+  m_LocalPosition: {x: -3.28984404, y: 1.05999994, z: -38.6409988}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 439718}
@@ -217,7 +219,7 @@ Renderer:
   m_LightmapIndex: 255
   m_LightmapTilingOffset: {x: 1, y: 1, z: 0, w: 0}
   m_Materials:
-  - {fileID: 10302, guid: 0000000000000000f000000000000000, type: 0}
+  - {fileID: 2100000, guid: 634d6d56433ed4f8c96bb44f4e94bcc2, type: 2}
   m_SubsetIndices: 
   m_StaticBatchRoot: {fileID: 0}
   m_UseLightProbes: 0
@@ -237,7 +239,7 @@ Renderer:
   m_LightmapIndex: 255
   m_LightmapTilingOffset: {x: 1, y: 1, z: 0, w: 0}
   m_Materials:
-  - {fileID: 10302, guid: 0000000000000000f000000000000000, type: 0}
+  - {fileID: 2100000, guid: 634d6d56433ed4f8c96bb44f4e94bcc2, type: 2}
   m_SubsetIndices: 
   m_StaticBatchRoot: {fileID: 0}
   m_UseLightProbes: 0
@@ -345,6 +347,19 @@ Animator:
   m_ApplyRootMotion: 1
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
+--- !u!114 &11405240
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 113416}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0552fded803111840980d645c15089ee, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Settings: {fileID: 11400000, guid: 6d0497408b68fb342a1e4a0cfba09403, type: 2}
+  Type: 3
 --- !u!114 &11413418
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -374,6 +389,19 @@ MonoBehaviour:
   EnableClickSupport: 1
   DrawGlyphBoundsGizmos: 0
   AutoRebuild: 1
+--- !u!114 &11423682
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 139722}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0552fded803111840980d645c15089ee, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Settings: {fileID: 11400000, guid: 6d0497408b68fb342a1e4a0cfba09403, type: 2}
+  Type: 4
 --- !u!114 &11439720
 MonoBehaviour:
   m_ObjectHideFlags: 1

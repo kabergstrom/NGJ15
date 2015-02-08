@@ -8,8 +8,6 @@ public class TextEnabler : MonoBehaviour
 	public bool VisibleWhenNormal;
 	public bool VisibleWhenCheating;
 	public bool VisibleWhenMurder;
-		
-	public Renderer TextRenderer;
 	
 	void LateUpdate () 
 	{
