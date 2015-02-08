@@ -12,7 +12,7 @@ GameObject:
   - 23: {fileID: 2306402}
   - 114: {fileID: 11406402}
   - 114: {fileID: 11406404}
-  m_Layer: 0
+  m_Layer: 11
   m_Name: Text
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -31,7 +31,7 @@ GameObject:
   - 23: {fileID: 2322832}
   - 114: {fileID: 11422832}
   - 114: {fileID: 11422830}
-  m_Layer: 0
+  m_Layer: 11
   m_Name: Text
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -51,7 +51,7 @@ GameObject:
   - 23: {fileID: 2395294}
   - 54: {fileID: 5495294}
   - 114: {fileID: 11427216}
-  m_Layer: 0
+  m_Layer: 11
   m_Name: Bullet
   m_TagString: Bullet
   m_Icon: {fileID: 0}
