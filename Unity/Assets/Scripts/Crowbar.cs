@@ -17,15 +17,15 @@ public class Crowbar : MonoBehaviour
 
     void OnTriggerEnter(Collider collider)
     {
-        if (InHit == false && collider.gameObject.tag.Equals("Enemy"))
-        {
-            InHit = true;
-            DamageReceiver obj = collider.gameObject.GetComponent<DamageReceiver>();
-            obj.Health -= Damage;
-        }
         if (InHit == false)
         {
-        	FMOD_StudioSystem.instance.PlayOneShot("event:/Crowbar_hit", transform.position);
+            FMOD_StudioSystem.instance.PlayOneShot("event:/Crowbar_hit", transform.position);
+            if (collider.gameObject.tag.Equals("Enemy"))
+            {
+                InHit = true;
+                DamageReceiver obj = collider.gameObject.GetComponent<DamageReceiver>();
+                obj.Health -= Damage;
+            }
         }
     }
 }
