@@ -3,17 +3,17 @@ using System.Collections;
 
 public class MeleeMonsterMovement : MonoBehaviour
 {
-Transform Target;
-NavMeshAgent NavigationAgent;
+    Transform Target;
+    NavMeshAgent NavigationAgent;
 
-void Start ()
-{
-    Target = GameObject.FindGameObjectWithTag("Player").transform;
-    NavigationAgent = GetComponent<NavMeshAgent>();
-}
+    void Start()
+    {
+        Target = GameObject.FindGameObjectWithTag("Player").transform;
+        NavigationAgent = GetComponent<NavMeshAgent>();
+    }
 
-    void Update ()
+    void Update()
     {
         NavigationAgent.SetDestination(Target.position);
-	}
+    }
 }
