@@ -5,6 +5,7 @@ public struct MurderData
 {
 	public int CheatingLevel;
 	public int MurderLevel;
+	public bool CoatGone;
 }
 
 [System.Serializable]
@@ -18,6 +19,8 @@ public class MurderSettings : ScriptableObject
 {
 	public MurderData DummyData;
 	public BorderSettings BorderData;
+
+	public bool UseProgress = true;
 	
 	public bool SuspectsNothing()
 	{
@@ -33,5 +36,10 @@ public class MurderSettings : ScriptableObject
 	public bool SuspectsMurder()
 	{
 		return DummyData.MurderLevel >= BorderData.MurderNeededForSuspicion;
+	}
+	
+	public bool CoatIsGone()
+	{
+		return DummyData.CoatGone;
 	}
 }
