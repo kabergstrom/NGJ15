@@ -194,7 +194,6 @@ MonoBehaviour:
   VisibleWhenNormal: 0
   VisibleWhenCheating: 1
   VisibleWhenMurder: 1
-  TextRenderer: {fileID: 0}
 --- !u!1 &6647449
 GameObject:
   m_ObjectHideFlags: 0
@@ -301,7 +300,6 @@ MonoBehaviour:
   VisibleWhenNormal: 1
   VisibleWhenCheating: 1
   VisibleWhenMurder: 1
-  TextRenderer: {fileID: 0}
 --- !u!114 &10861235
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -917,7 +915,6 @@ MonoBehaviour:
   VisibleWhenNormal: 0
   VisibleWhenCheating: 0
   VisibleWhenMurder: 1
-  TextRenderer: {fileID: 0}
 --- !u!114 &74268114
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2077,7 +2074,6 @@ MonoBehaviour:
   VisibleWhenNormal: 0
   VisibleWhenCheating: 1
   VisibleWhenMurder: 1
-  TextRenderer: {fileID: 0}
 --- !u!1 &197164576
 GameObject:
   m_ObjectHideFlags: 0
@@ -2391,7 +2387,6 @@ MonoBehaviour:
   VisibleWhenNormal: 0
   VisibleWhenCheating: 1
   VisibleWhenMurder: 0
-  TextRenderer: {fileID: 0}
 --- !u!114 &215694647
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2499,7 +2494,6 @@ MonoBehaviour:
   VisibleWhenNormal: 1
   VisibleWhenCheating: 1
   VisibleWhenMurder: 1
-  TextRenderer: {fileID: 0}
 --- !u!114 &218684879
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2635,7 +2629,6 @@ MonoBehaviour:
   VisibleWhenNormal: 1
   VisibleWhenCheating: 1
   VisibleWhenMurder: 0
-  TextRenderer: {fileID: 0}
 --- !u!114 &222558523
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3037,7 +3030,6 @@ MonoBehaviour:
   VisibleWhenNormal: 1
   VisibleWhenCheating: 1
   VisibleWhenMurder: 1
-  TextRenderer: {fileID: 0}
 --- !u!114 &251484266
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3753,7 +3745,6 @@ MonoBehaviour:
   VisibleWhenNormal: 1
   VisibleWhenCheating: 1
   VisibleWhenMurder: 1
-  TextRenderer: {fileID: 0}
 --- !u!114 &288301795
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4616,7 +4607,6 @@ MonoBehaviour:
   VisibleWhenNormal: 0
   VisibleWhenCheating: 1
   VisibleWhenMurder: 0
-  TextRenderer: {fileID: 0}
 --- !u!114 &365038590
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4796,7 +4786,6 @@ MonoBehaviour:
   VisibleWhenNormal: 1
   VisibleWhenCheating: 1
   VisibleWhenMurder: 1
-  TextRenderer: {fileID: 0}
 --- !u!114 &379906041
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -5096,7 +5085,6 @@ MonoBehaviour:
   VisibleWhenNormal: 0
   VisibleWhenCheating: 0
   VisibleWhenMurder: 1
-  TextRenderer: {fileID: 0}
 --- !u!114 &395699421
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -6041,7 +6029,6 @@ MonoBehaviour:
   VisibleWhenNormal: 1
   VisibleWhenCheating: 1
   VisibleWhenMurder: 1
-  TextRenderer: {fileID: 0}
 --- !u!114 &496596674
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -6209,7 +6196,6 @@ MonoBehaviour:
   VisibleWhenNormal: 1
   VisibleWhenCheating: 1
   VisibleWhenMurder: 1
-  TextRenderer: {fileID: 0}
 --- !u!114 &504311946
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -6401,7 +6387,6 @@ MonoBehaviour:
   VisibleWhenNormal: 0
   VisibleWhenCheating: 0
   VisibleWhenMurder: 1
-  TextRenderer: {fileID: 0}
 --- !u!114 &516360970
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -6523,7 +6508,6 @@ MonoBehaviour:
   VisibleWhenNormal: 1
   VisibleWhenCheating: 1
   VisibleWhenMurder: 1
-  TextRenderer: {fileID: 0}
 --- !u!114 &520336667
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -7086,7 +7070,6 @@ MonoBehaviour:
   VisibleWhenNormal: 0
   VisibleWhenCheating: 1
   VisibleWhenMurder: 1
-  TextRenderer: {fileID: 0}
 --- !u!114 &572515075
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -8836,7 +8819,6 @@ MonoBehaviour:
   VisibleWhenNormal: 0
   VisibleWhenCheating: 1
   VisibleWhenMurder: 1
-  TextRenderer: {fileID: 0}
 --- !u!114 &756249415
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -9016,7 +8998,6 @@ MonoBehaviour:
   VisibleWhenNormal: 0
   VisibleWhenCheating: 1
   VisibleWhenMurder: 1
-  TextRenderer: {fileID: 0}
 --- !u!114 &768173615
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -9138,7 +9119,6 @@ MonoBehaviour:
   VisibleWhenNormal: 1
   VisibleWhenCheating: 1
   VisibleWhenMurder: 1
-  TextRenderer: {fileID: 0}
 --- !u!114 &773215255
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -9436,7 +9416,6 @@ MonoBehaviour:
   VisibleWhenNormal: 1
   VisibleWhenCheating: 1
   VisibleWhenMurder: 0
-  TextRenderer: {fileID: 0}
 --- !u!114 &784597566
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -9714,7 +9693,6 @@ MonoBehaviour:
   VisibleWhenNormal: 1
   VisibleWhenCheating: 1
   VisibleWhenMurder: 1
-  TextRenderer: {fileID: 0}
 --- !u!114 &800168610
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -10229,7 +10207,6 @@ MonoBehaviour:
   VisibleWhenNormal: 0
   VisibleWhenCheating: 1
   VisibleWhenMurder: 1
-  TextRenderer: {fileID: 0}
 --- !u!1 &837844941
 GameObject:
   m_ObjectHideFlags: 0
@@ -11022,7 +10999,6 @@ MonoBehaviour:
   VisibleWhenNormal: 1
   VisibleWhenCheating: 0
   VisibleWhenMurder: 0
-  TextRenderer: {fileID: 0}
 --- !u!114 &927754000
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -11348,7 +11324,6 @@ MonoBehaviour:
   VisibleWhenNormal: 0
   VisibleWhenCheating: 0
   VisibleWhenMurder: 1
-  TextRenderer: {fileID: 0}
 --- !u!114 &976783090
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -12307,7 +12282,6 @@ MonoBehaviour:
   VisibleWhenNormal: 1
   VisibleWhenCheating: 1
   VisibleWhenMurder: 1
-  TextRenderer: {fileID: 0}
 --- !u!114 &1086556743
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -12537,7 +12511,6 @@ MonoBehaviour:
   VisibleWhenNormal: 1
   VisibleWhenCheating: 0
   VisibleWhenMurder: 0
-  TextRenderer: {fileID: 0}
 --- !u!114 &1103354785
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -12950,7 +12923,6 @@ MonoBehaviour:
   VisibleWhenNormal: 0
   VisibleWhenCheating: 1
   VisibleWhenMurder: 1
-  TextRenderer: {fileID: 0}
 --- !u!114 &1142295159
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -13367,7 +13339,6 @@ MonoBehaviour:
   VisibleWhenNormal: 0
   VisibleWhenCheating: 0
   VisibleWhenMurder: 1
-  TextRenderer: {fileID: 0}
 --- !u!114 &1171264204
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -13474,7 +13445,6 @@ MonoBehaviour:
   VisibleWhenNormal: 1
   VisibleWhenCheating: 0
   VisibleWhenMurder: 0
-  TextRenderer: {fileID: 0}
 --- !u!114 &1176163381
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -13631,7 +13601,6 @@ MonoBehaviour:
   VisibleWhenNormal: 1
   VisibleWhenCheating: 1
   VisibleWhenMurder: 1
-  TextRenderer: {fileID: 0}
 --- !u!114 &1190515862
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -14156,7 +14125,6 @@ MonoBehaviour:
   VisibleWhenNormal: 1
   VisibleWhenCheating: 1
   VisibleWhenMurder: 1
-  TextRenderer: {fileID: 0}
 --- !u!114 &1220602888
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -14501,7 +14469,6 @@ MonoBehaviour:
   VisibleWhenNormal: 0
   VisibleWhenCheating: 1
   VisibleWhenMurder: 1
-  TextRenderer: {fileID: 0}
 --- !u!114 &1267565602
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -14623,7 +14590,6 @@ MonoBehaviour:
   VisibleWhenNormal: 1
   VisibleWhenCheating: 0
   VisibleWhenMurder: 0
-  TextRenderer: {fileID: 0}
 --- !u!114 &1277504373
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -18794,7 +18760,6 @@ MonoBehaviour:
   VisibleWhenNormal: 0
   VisibleWhenCheating: 1
   VisibleWhenMurder: 1
-  TextRenderer: {fileID: 0}
 --- !u!114 &1648920306
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -19083,7 +19048,6 @@ MonoBehaviour:
   VisibleWhenNormal: 0
   VisibleWhenCheating: 1
   VisibleWhenMurder: 1
-  TextRenderer: {fileID: 0}
 --- !u!1001 &1680508765
 Prefab:
   m_ObjectHideFlags: 0
@@ -20250,7 +20214,6 @@ MonoBehaviour:
   VisibleWhenNormal: 1
   VisibleWhenCheating: 1
   VisibleWhenMurder: 0
-  TextRenderer: {fileID: 0}
 --- !u!114 &1740810510
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -20806,7 +20769,6 @@ MonoBehaviour:
   VisibleWhenNormal: 0
   VisibleWhenCheating: 1
   VisibleWhenMurder: 0
-  TextRenderer: {fileID: 1763287584}
 --- !u!114 &1763287581
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -21120,7 +21082,6 @@ MonoBehaviour:
   VisibleWhenNormal: 0
   VisibleWhenCheating: 0
   VisibleWhenMurder: 1
-  TextRenderer: {fileID: 0}
 --- !u!114 &1788965205
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -21254,7 +21215,6 @@ MonoBehaviour:
   VisibleWhenNormal: 1
   VisibleWhenCheating: 1
   VisibleWhenMurder: 0
-  TextRenderer: {fileID: 0}
 --- !u!114 &1791134436
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -21362,7 +21322,6 @@ MonoBehaviour:
   VisibleWhenNormal: 1
   VisibleWhenCheating: 1
   VisibleWhenMurder: 1
-  TextRenderer: {fileID: 0}
 --- !u!114 &1793300438
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -21484,7 +21443,6 @@ MonoBehaviour:
   VisibleWhenNormal: 1
   VisibleWhenCheating: 1
   VisibleWhenMurder: 1
-  TextRenderer: {fileID: 0}
 --- !u!114 &1795244422
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -22251,7 +22209,6 @@ MonoBehaviour:
   VisibleWhenNormal: 0
   VisibleWhenCheating: 0
   VisibleWhenMurder: 1
-  TextRenderer: {fileID: 0}
 --- !u!114 &1900544554
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -22462,7 +22419,6 @@ MonoBehaviour:
   VisibleWhenNormal: 0
   VisibleWhenCheating: 0
   VisibleWhenMurder: 1
-  TextRenderer: {fileID: 0}
 --- !u!114 &1920107921
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -22982,7 +22938,6 @@ MonoBehaviour:
   VisibleWhenNormal: 0
   VisibleWhenCheating: 1
   VisibleWhenMurder: 0
-  TextRenderer: {fileID: 0}
 --- !u!114 &1965651402
 MonoBehaviour:
   m_ObjectHideFlags: 0
