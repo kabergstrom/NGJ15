@@ -15,6 +15,8 @@ public enum TextFadeType
     Default = 0,
     FadeOutClose = 1,
     FadeInFadeOut = 2,
+    Objects = 3,
+    Weapons = 4,
 }
 
 public class TextFadeSettings : ScriptableObject
