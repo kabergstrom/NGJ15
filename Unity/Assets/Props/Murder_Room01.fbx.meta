@@ -145,6 +145,17 @@ ModelImporter:
     100278: Tickets01
     100280: Tv01
     100282: TvBord01
+    100284: BloodTowel01
+    100286: HIS_Jacket
+    100288: Peddestal01
+    100290: Towler01
+    100292: Towler02
+    100294: Wardrobe01
+    100296: Wardrobe02
+    100298: WindowBroken01
+    100300: WindowBroken02
+    100302: BloodTowel02
+    100304: BloodyTowel01
     400000: Bathroom_Doorframe01
     400002: BathRoom_Floor
     400004: Bathroom_Wall01
@@ -287,6 +298,17 @@ ModelImporter:
     400278: Tickets01
     400280: Tv01
     400282: TvBord01
+    400284: BloodTowel01
+    400286: HIS_Jacket
+    400288: Peddestal01
+    400290: Towler01
+    400292: Towler02
+    400294: Wardrobe01
+    400296: Wardrobe02
+    400298: WindowBroken01
+    400300: WindowBroken02
+    400302: BloodTowel02
+    400304: BloodyTowel01
     2300000: Bathroom_Doorframe01
     2300002: BathRoom_Floor
     2300004: Bathroom_Wall01
@@ -361,6 +383,18 @@ ModelImporter:
     2300142: Tickets01
     2300144: Tv01
     2300146: TvBord01
+    2300148: BloodTowel01
+    2300150: HIS_Jacket
+    2300152: pCube3
+    2300154: Peddestal01
+    2300156: Towler01
+    2300158: Towler02
+    2300160: Wardrobe01
+    2300162: Wardrobe02
+    2300164: WindowBroken01
+    2300166: WindowBroken02
+    2300168: BloodTowel02
+    2300170: BloodyTowel01
     3300000: Bathroom_Doorframe01
     3300002: BathRoom_Floor
     3300004: Bathroom_Wall01
@@ -435,6 +469,18 @@ ModelImporter:
     3300142: Tickets01
     3300144: Tv01
     3300146: TvBord01
+    3300148: BloodTowel01
+    3300150: HIS_Jacket
+    3300152: pCube3
+    3300154: Peddestal01
+    3300156: Towler01
+    3300158: Towler02
+    3300160: Wardrobe01
+    3300162: Wardrobe02
+    3300164: WindowBroken01
+    3300166: WindowBroken02
+    3300168: BloodTowel02
+    3300170: BloodyTowel01
     4300000: Stairs01
     4300002: Stairs02
     4300004: BathRoom_Floor
@@ -509,6 +555,18 @@ ModelImporter:
     4300142: BathroomMirror
     4300144: Sink01
     4300146: Bathroom_Door01
+    4300148: Wardrobe02
+    4300150: Wardrobe01
+    4300152: HIS_Jacket
+    4300154: pCube3
+    4300156: WindowBroken01
+    4300158: WindowBroken02
+    4300160: Towler01
+    4300162: Towler02
+    4300164: BloodTowel01
+    4300166: Peddestal01
+    4300168: BloodTowel02
+    4300170: BloodyTowel01
     9500000: //RootNode
   materials:
     importMaterials: 1

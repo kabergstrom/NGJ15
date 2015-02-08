@@ -48,9 +48,12 @@ public class WeaponSystem : MonoBehaviour
     [SerializeField]
     private Transform GranadeStartPos;
     [SerializeField]
-    private Transform FireDirection;
+    private Transform NormalGunFireDirection;
+    [SerializeField]
+    private Transform BetterGunFireDirection;
 
     public int GranadeCount;
+    public int NormalGunAmmo;
     public int BetterGunAmmo;
 
     enum Weapons { Crowbar, NormalGun, BetterGun }
@@ -94,11 +97,10 @@ public class WeaponSystem : MonoBehaviour
                 DoCrowbar(fiering);
                 break;
             case Weapons.NormalGun:
-                int ammo = 1;
-                DoGun(fiering, ref _TimeUntilNextNormalBullet, WeaponSettings.NormalGunFireRate, ref ammo, Prefabs.NormalBulletPrefab, _NormalGunAnim);
+                DoGun(fiering, ref _TimeUntilNextNormalBullet, WeaponSettings.NormalGunFireRate, ref NormalGunAmmo, NormalGunFireDirection, Prefabs.NormalBulletPrefab, _NormalGunAnim);
                 break;
             case Weapons.BetterGun:
-                DoGun(fiering, ref _TimeUntilNextBetterBullet, WeaponSettings.BetterGunFireRate, ref BetterGunAmmo, Prefabs.BetterBulletPrefab, _BetterGunAnim);
+                DoGun(fiering, ref _TimeUntilNextBetterBullet, WeaponSettings.BetterGunFireRate, ref BetterGunAmmo, BetterGunFireDirection, Prefabs.BetterBulletPrefab, _BetterGunAnim);
                 break;
         }
 
@@ -128,7 +130,7 @@ public class WeaponSystem : MonoBehaviour
         }
     }
 
-    void DoGun(bool fiering, ref float nextShotTime, float fireRate, ref int ammo, GameObject bulletPrefab, Animator anim)
+    void DoGun(bool fiering, ref float nextShotTime, float fireRate, ref int ammo, Transform firePos, GameObject bulletPrefab, Animator anim)
     {
         if (fiering && Time.time > nextShotTime)
         {
@@ -136,8 +138,8 @@ public class WeaponSystem : MonoBehaviour
             nextShotTime = Time.time + (1 / fireRate);
             ammo--;
 
-            GameObject obj = (GameObject)Instantiate(bulletPrefab, FireDirection.position, FireDirection.rotation);
-            obj.GetComponent<Rigidbody>().AddForce(FireDirection.forward * WeaponSettings.BulletFireForce, ForceMode.Impulse);
+            GameObject obj = (GameObject)Instantiate(bulletPrefab, firePos.position, firePos.rotation);
+            obj.GetComponent<Rigidbody>().AddForce(BetterGunFireDirection.forward * WeaponSettings.BulletFireForce, ForceMode.Impulse);
         }
     }
 
