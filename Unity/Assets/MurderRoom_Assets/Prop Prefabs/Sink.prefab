@@ -142,7 +142,7 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 103726}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 5.69388008, y: 2.3176229, z: -6.80257511}
+  m_LocalPosition: {x: 5.65899992, y: 2.32999992, z: -6.82600021}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 403724}
@@ -183,7 +183,7 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 103732}
   m_LocalRotation: {x: .277544886, y: .650360584, z: -.277544945, w: .650360584}
-  m_LocalPosition: {x: -.167999998, y: .127000004, z: .448000014}
+  m_LocalPosition: {x: -.172000006, y: .123999998, z: .448000014}
   m_LocalScale: {x: 1, y: 1.02056897, z: 1}
   m_Children: []
   m_Father: {fileID: 403726}
@@ -294,7 +294,7 @@ MeshFilter:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 103722}
-  m_Mesh: {fileID: 4300144, guid: 3d3c681f64dac8f42b497e707b62066c, type: 3}
+  m_Mesh: {fileID: 4300120, guid: 3d3c681f64dac8f42b497e707b62066c, type: 3}
 --- !u!33 &3303726
 MeshFilter:
   m_ObjectHideFlags: 1
@@ -338,6 +338,7 @@ MonoBehaviour:
   VisibleWhenNormal: 1
   VisibleWhenCheating: 1
   VisibleWhenMurder: 1
+  CoatIsGone: 0
 --- !u!114 &11403714
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -437,6 +438,7 @@ MonoBehaviour:
   VisibleWhenNormal: 1
   VisibleWhenCheating: 1
   VisibleWhenMurder: 1
+  CoatIsGone: 0
 --- !u!114 &11403724
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -493,6 +495,7 @@ MonoBehaviour:
   VisibleWhenNormal: 0
   VisibleWhenCheating: 1
   VisibleWhenMurder: 1
+  CoatIsGone: 0
 --- !u!114 &11403730
 MonoBehaviour:
   m_ObjectHideFlags: 1

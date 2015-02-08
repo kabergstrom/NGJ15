@@ -54,7 +54,7 @@ GameObject:
   - 114: {fileID: 11463894}
   - 114: {fileID: 11463892}
   m_Layer: 0
-  m_Name: Sink
+  m_Name: Wardrobe
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -172,7 +172,7 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 184192}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -2.31999993, y: 0, z: .839999974}
+  m_LocalPosition: {x: -1.72000003, y: 1.55999994, z: .670000017}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 484196}
@@ -196,7 +196,7 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 184196}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 2.05742049, y: 3.18949628, z: -22.9998074}
+  m_LocalPosition: {x: 2.42046404, y: 2.69655609, z: -23.4481792}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 484194}
@@ -366,14 +366,14 @@ MeshFilter:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 184192}
-  m_Mesh: {fileID: 4300148, guid: 3d3c681f64dac8f42b497e707b62066c, type: 3}
+  m_Mesh: {fileID: 4300124, guid: 3d3c681f64dac8f42b497e707b62066c, type: 3}
 --- !u!33 &3384196
 MeshFilter:
   m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 184194}
-  m_Mesh: {fileID: 4300150, guid: 3d3c681f64dac8f42b497e707b62066c, type: 3}
+  m_Mesh: {fileID: 4300126, guid: 3d3c681f64dac8f42b497e707b62066c, type: 3}
 --- !u!33 &3384198
 MeshFilter:
   m_ObjectHideFlags: 1

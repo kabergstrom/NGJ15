@@ -1,5 +1,22 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
+--- !u!1 &184370
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 484370}
+  - 33: {fileID: 3384370}
+  - 23: {fileID: 2384370}
+  m_Layer: 0
+  m_Name: Mesh
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
 --- !u!1 &190870
 GameObject:
   m_ObjectHideFlags: 0
@@ -115,23 +132,18 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!1 &190882
-GameObject:
-  m_ObjectHideFlags: 0
+--- !u!4 &484370
+Transform:
+  m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
-  serializedVersion: 4
-  m_Component:
-  - 4: {fileID: 490882}
-  - 33: {fileID: 3390880}
-  - 23: {fileID: 2390880}
-  m_Layer: 0
-  m_Name: Mesh
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_GameObject: {fileID: 184370}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: .0918548107, y: .878957272, z: -2.85792732}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 490880}
+  m_RootOrder: 0
 --- !u!4 &490870
 Transform:
   m_ObjectHideFlags: 1
@@ -199,10 +211,10 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 190880}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 3.85999966, y: .660000026, z: -1.76999998}
+  m_LocalPosition: {x: 3.83999991, y: .720000029, z: -1.76999998}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
-  - {fileID: 490882}
+  - {fileID: 484370}
   - {fileID: 490878}
   - {fileID: 490876}
   - {fileID: 490874}
@@ -210,18 +222,26 @@ Transform:
   - {fileID: 490870}
   m_Father: {fileID: 0}
   m_RootOrder: 0
---- !u!4 &490882
-Transform:
+--- !u!23 &2384370
+Renderer:
   m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 190882}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: .0718550682, y: .938957274, z: -2.85792732}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
-  m_Father: {fileID: 490880}
-  m_RootOrder: 0
+  m_GameObject: {fileID: 184370}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_LightmapIndex: 255
+  m_LightmapTilingOffset: {x: 1, y: 1, z: 0, w: 0}
+  m_Materials:
+  - {fileID: 2100000, guid: 8c832038022e9804a95242e731640c43, type: 2}
+  m_SubsetIndices: 
+  m_StaticBatchRoot: {fileID: 0}
+  m_UseLightProbes: 0
+  m_LightProbeAnchor: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_SortingLayerID: 0
+  m_SortingOrder: 0
 --- !u!23 &2390870
 Renderer:
   m_ObjectHideFlags: 1
@@ -322,26 +342,13 @@ Renderer:
   m_ScaleInLightmap: 1
   m_SortingLayerID: 0
   m_SortingOrder: 0
---- !u!23 &2390880
-Renderer:
+--- !u!33 &3384370
+MeshFilter:
   m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 190882}
-  m_Enabled: 1
-  m_CastShadows: 1
-  m_ReceiveShadows: 1
-  m_LightmapIndex: 255
-  m_LightmapTilingOffset: {x: 1, y: 1, z: 0, w: 0}
-  m_Materials:
-  - {fileID: 2100000, guid: 8c832038022e9804a95242e731640c43, type: 2}
-  m_SubsetIndices: 
-  m_StaticBatchRoot: {fileID: 0}
-  m_UseLightProbes: 0
-  m_LightProbeAnchor: {fileID: 0}
-  m_ScaleInLightmap: 1
-  m_SortingLayerID: 0
-  m_SortingOrder: 0
+  m_GameObject: {fileID: 184370}
+  m_Mesh: {fileID: 4300116, guid: 3d3c681f64dac8f42b497e707b62066c, type: 3}
 --- !u!33 &3390870
 MeshFilter:
   m_ObjectHideFlags: 1
@@ -377,13 +384,6 @@ MeshFilter:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 190878}
   m_Mesh: {fileID: 0}
---- !u!33 &3390880
-MeshFilter:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 190882}
-  m_Mesh: {fileID: 4300140, guid: 3d3c681f64dac8f42b497e707b62066c, type: 3}
 --- !u!114 &11490870
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -399,7 +399,7 @@ MonoBehaviour:
   VisibleWhenNormal: 0
   VisibleWhenCheating: 1
   VisibleWhenMurder: 1
-  TextRenderer: {fileID: 0}
+  CoatIsGone: 0
 --- !u!114 &11490872
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -499,7 +499,7 @@ MonoBehaviour:
   VisibleWhenNormal: 0
   VisibleWhenCheating: 0
   VisibleWhenMurder: 1
-  TextRenderer: {fileID: 0}
+  CoatIsGone: 0
 --- !u!114 &11490882
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -515,7 +515,7 @@ MonoBehaviour:
   VisibleWhenNormal: 0
   VisibleWhenCheating: 1
   VisibleWhenMurder: 1
-  TextRenderer: {fileID: 0}
+  CoatIsGone: 0
 --- !u!114 &11490884
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -615,7 +615,7 @@ MonoBehaviour:
   VisibleWhenNormal: 1
   VisibleWhenCheating: 1
   VisibleWhenMurder: 1
-  TextRenderer: {fileID: 0}
+  CoatIsGone: 0
 --- !u!114 &11490894
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -631,7 +631,7 @@ MonoBehaviour:
   VisibleWhenNormal: 1
   VisibleWhenCheating: 1
   VisibleWhenMurder: 1
-  TextRenderer: {fileID: 0}
+  CoatIsGone: 0
 --- !u!114 &11490896
 MonoBehaviour:
   m_ObjectHideFlags: 1
