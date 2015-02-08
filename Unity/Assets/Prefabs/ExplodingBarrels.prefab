@@ -1363,6 +1363,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Damage: 15
   ExplotionRadius: 10
+  ExplosionEffect: {fileID: 126290, guid: 0a3ee702b814cec49a0283567c26e927, type: 2}
 --- !u!114 &11426318
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -1376,6 +1377,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Damage: 15
   ExplotionRadius: 10
+  ExplosionEffect: {fileID: 126290, guid: 0a3ee702b814cec49a0283567c26e927, type: 2}
 --- !u!114 &11426320
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -1665,6 +1667,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Damage: 15
   ExplotionRadius: 10
+  ExplosionEffect: {fileID: 126290, guid: 0a3ee702b814cec49a0283567c26e927, type: 2}
 --- !u!114 &11426350
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -1678,6 +1681,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Damage: 15
   ExplotionRadius: 10
+  ExplosionEffect: {fileID: 126290, guid: 0a3ee702b814cec49a0283567c26e927, type: 2}
 --- !u!114 &11426352
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -1967,6 +1971,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Damage: 15
   ExplotionRadius: 10
+  ExplosionEffect: {fileID: 126290, guid: 0a3ee702b814cec49a0283567c26e927, type: 2}
 --- !u!136 &13626372
 CapsuleCollider:
   m_ObjectHideFlags: 1
