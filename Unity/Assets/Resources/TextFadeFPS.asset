@@ -31,15 +31,15 @@ MonoBehaviour:
     MaxDistance:
       serializedVersion: 2
       m_Curve:
-      - time: .5
-        value: 5
-        inSlope: .333360493
-        outSlope: .333360493
+      - time: .397959173
+        value: 8.69859791
+        inSlope: .331668288
+        outSlope: .331668288
         tangentMode: 10
       - time: 20.5
-        value: 11.6672096
-        inSlope: .333360493
-        outSlope: .333360493
+        value: 15.3658075
+        inSlope: .331668288
+        outSlope: .331668288
         tangentMode: 10
       m_PreInfinity: 2
       m_PostInfinity: 2
@@ -107,14 +107,14 @@ MonoBehaviour:
       serializedVersion: 2
       m_Curve:
       - time: 0
-        value: 6.5999999
-        inSlope: .0200000051
-        outSlope: .0200000051
+        value: 6.92581177
+        inSlope: .0140000107
+        outSlope: .0140000107
         tangentMode: 10
       - time: 20
-        value: 7
-        inSlope: .0200000051
-        outSlope: .0200000051
+        value: 7.20581198
+        inSlope: .0140000107
+        outSlope: .0140000107
         tangentMode: 10
       m_PreInfinity: 2
       m_PostInfinity: 2
@@ -152,7 +152,7 @@ MonoBehaviour:
       ctime6: 0
       ctime7: 0
       atime0: 0
-      atime1: 43947
+      atime1: 65535
       atime2: 65535
       atime3: 65535
       atime4: 0
