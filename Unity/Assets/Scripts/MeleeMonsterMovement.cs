@@ -14,7 +14,10 @@ public class MeleeMonsterMovement : MonoBehaviour
 
     void Update()
     {
-        //float dist = Vector3.Distance();
-        NavigationAgent.SetDestination(Target.position);
+        float dist = Vector3.Distance(Target.position, transform.position);
+        if (dist < 1.3f)
+            NavigationAgent.SetDestination(transform.position);
+        else
+            NavigationAgent.SetDestination(Target.position);
     }
 }
