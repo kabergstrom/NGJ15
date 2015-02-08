@@ -56,4 +56,4 @@ Material:
       data:
         first:
           name: _GlobalMultiplierColor
-        second: {r: .213235319, g: .213235319, b: .213235319, a: 1}
+        second: {r: .779411793, g: .779411793, b: .779411793, a: 1}
