@@ -12,6 +12,7 @@ GameObject:
   - 65: {fileID: 6504428}
   - 23: {fileID: 2304428}
   - 114: {fileID: 11404426}
+  - 114: {fileID: 11480992}
   m_Layer: 0
   m_Name: AmmoText
   m_TagString: Untagged
@@ -30,6 +31,7 @@ GameObject:
   - 33: {fileID: 3304430}
   - 23: {fileID: 2304430}
   - 114: {fileID: 11404428}
+  - 114: {fileID: 11480988}
   m_Layer: 0
   m_Name: Text
   m_TagString: Untagged
@@ -116,6 +118,7 @@ GameObject:
   - 33: {fileID: 3304436}
   - 23: {fileID: 2304436}
   - 114: {fileID: 11404430}
+  - 114: {fileID: 11480990}
   m_Layer: 0
   m_Name: Text
   m_TagString: Untagged
@@ -203,7 +206,6 @@ GameObject:
   - 114: {fileID: 11404432}
   - 114: {fileID: 11426448}
   - 114: {fileID: 11436694}
-  - 114: {fileID: 11427162}
   m_Layer: 0
   m_Name: Player
   m_TagString: Player
@@ -272,6 +274,7 @@ GameObject:
   - 33: {fileID: 3350320}
   - 23: {fileID: 2350320}
   - 114: {fileID: 11450318}
+  - 114: {fileID: 11480986}
   m_Layer: 0
   m_Name: Text
   m_TagString: Untagged
@@ -495,7 +498,7 @@ Camera:
   m_Enabled: 1
   serializedVersion: 2
   m_ClearFlags: 1
-  m_BackGroundColor: {r: .192156866, g: .301960796, b: .474509805, a: .0196078438}
+  m_BackGroundColor: {r: .188235298, g: .188235298, b: .200000003, a: .0196078438}
   m_NormalizedViewPortRect:
     serializedVersion: 2
     x: 0
@@ -530,7 +533,7 @@ Renderer:
   m_LightmapIndex: 255
   m_LightmapTilingOffset: {x: 1, y: 1, z: 0, w: 0}
   m_Materials:
-  - {fileID: 2100000, guid: 3cfef9647f0a64c418fe178783450561, type: 2}
+  - {fileID: 2100000, guid: 5396857849b014ef986c91bbe6624dfa, type: 2}
   m_SubsetIndices: 
   m_StaticBatchRoot: {fileID: 0}
   m_UseLightProbes: 0
@@ -550,7 +553,7 @@ Renderer:
   m_LightmapIndex: 255
   m_LightmapTilingOffset: {x: 1, y: 1, z: 0, w: 0}
   m_Materials:
-  - {fileID: 2100000, guid: 3cfef9647f0a64c418fe178783450561, type: 2}
+  - {fileID: 2100000, guid: 5396857849b014ef986c91bbe6624dfa, type: 2}
   m_SubsetIndices: 
   m_StaticBatchRoot: {fileID: 0}
   m_UseLightProbes: 0
@@ -570,7 +573,7 @@ Renderer:
   m_LightmapIndex: 255
   m_LightmapTilingOffset: {x: 1, y: 1, z: 0, w: 0}
   m_Materials:
-  - {fileID: 10302, guid: 0000000000000000f000000000000000, type: 0}
+  - {fileID: 2100000, guid: 634d6d56433ed4f8c96bb44f4e94bcc2, type: 2}
   m_SubsetIndices: 
   m_StaticBatchRoot: {fileID: 0}
   m_UseLightProbes: 0
@@ -590,7 +593,7 @@ Renderer:
   m_LightmapIndex: 255
   m_LightmapTilingOffset: {x: 1, y: 1, z: 0, w: 0}
   m_Materials:
-  - {fileID: 10302, guid: 0000000000000000f000000000000000, type: 0}
+  - {fileID: 2100000, guid: 634d6d56433ed4f8c96bb44f4e94bcc2, type: 2}
   m_SubsetIndices: 
   m_StaticBatchRoot: {fileID: 0}
   m_UseLightProbes: 0
@@ -610,7 +613,7 @@ Renderer:
   m_LightmapIndex: 255
   m_LightmapTilingOffset: {x: 1, y: 1, z: 0, w: 0}
   m_Materials:
-  - {fileID: 2100000, guid: 3cfef9647f0a64c418fe178783450561, type: 2}
+  - {fileID: 2100000, guid: 5396857849b014ef986c91bbe6624dfa, type: 2}
   m_SubsetIndices: 
   m_StaticBatchRoot: {fileID: 0}
   m_UseLightProbes: 0
@@ -650,7 +653,7 @@ Renderer:
   m_LightmapIndex: 255
   m_LightmapTilingOffset: {x: 1, y: 1, z: 0, w: 0}
   m_Materials:
-  - {fileID: 10302, guid: 0000000000000000f000000000000000, type: 0}
+  - {fileID: 2100000, guid: 634d6d56433ed4f8c96bb44f4e94bcc2, type: 2}
   m_SubsetIndices: 
   m_StaticBatchRoot: {fileID: 0}
   m_UseLightProbes: 0
@@ -670,7 +673,7 @@ Renderer:
   m_LightmapIndex: 255
   m_LightmapTilingOffset: {x: 1, y: 1, z: 0, w: 0}
   m_Materials:
-  - {fileID: 2100000, guid: 3cfef9647f0a64c418fe178783450561, type: 2}
+  - {fileID: 2100000, guid: 5396857849b014ef986c91bbe6624dfa, type: 2}
   m_SubsetIndices: 
   m_StaticBatchRoot: {fileID: 0}
   m_UseLightProbes: 0
@@ -860,7 +863,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5b8e88b798241f94fa7265f167d0478b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Font: {fileID: 11400000, guid: 7ec953ba184eeca41ad5a8975a162d2d, type: 2}
+  Font: {fileID: 11400000, guid: 70221e5a80f564010bb832d19d1446d4, type: 2}
   Text: 'AMMO: 10'
   Size: .699999988
   Leading: 0
@@ -889,7 +892,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5b8e88b798241f94fa7265f167d0478b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Font: {fileID: 11400000, guid: 7ec953ba184eeca41ad5a8975a162d2d, type: 2}
+  Font: {fileID: 11400000, guid: 70221e5a80f564010bb832d19d1446d4, type: 2}
   Text: BETTER GUN
   Size: .800000012
   Leading: 0
@@ -918,7 +921,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5b8e88b798241f94fa7265f167d0478b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Font: {fileID: 11400000, guid: 7ec953ba184eeca41ad5a8975a162d2d, type: 2}
+  Font: {fileID: 11400000, guid: 70221e5a80f564010bb832d19d1446d4, type: 2}
   Text: CROWBAR
   Size: .699999988
   Leading: 0
@@ -927,12 +930,12 @@ MonoBehaviour:
   WordWrap: 0
   Alignment: 0
   FillMode: 0
-  ColorTopLeft: {r: 1, g: 1, b: 1, a: 1}
+  ColorTopLeft: {r: .470588237, g: .343417078, b: .151326403, a: 1}
   ColorTopRight: {r: 1, g: 1, b: 1, a: 1}
   ColorBottomLeft: {r: 1, g: 1, b: 1, a: 1}
   ColorBottomRight: {r: 1, g: 1, b: 1, a: 1}
   GenerateNormals: 1
-  Stationary: 1
+  Stationary: 0
   EnableClickSupport: 1
   DrawGlyphBoundsGizmos: 0
   AutoRebuild: 1
@@ -1067,21 +1070,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Health: 100
---- !u!114 &11427162
-MonoBehaviour:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 123954}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: db5a561bb47297b43afd6428db715a9e, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  DebugPlaySound: 1
-  StepAsset: {fileID: 11400000, guid: 3bd35ced04d1b754b9c72e7a1386d642, type: 2}
-  StepThreshold: 40
-  StepWeight: 10
 --- !u!114 &11429196
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -1133,7 +1121,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5b8e88b798241f94fa7265f167d0478b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Font: {fileID: 11400000, guid: 7ec953ba184eeca41ad5a8975a162d2d, type: 2}
+  Font: {fileID: 11400000, guid: 70221e5a80f564010bb832d19d1446d4, type: 2}
   Text: 'GUN
 
 '
@@ -1153,6 +1141,58 @@ MonoBehaviour:
   EnableClickSupport: 1
   DrawGlyphBoundsGizmos: 0
   AutoRebuild: 1
+--- !u!114 &11480986
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 150322}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0552fded803111840980d645c15089ee, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Settings: {fileID: 11400000, guid: 6d0497408b68fb342a1e4a0cfba09403, type: 2}
+  Type: 4
+--- !u!114 &11480988
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 104432}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0552fded803111840980d645c15089ee, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Settings: {fileID: 11400000, guid: 6d0497408b68fb342a1e4a0cfba09403, type: 2}
+  Type: 4
+--- !u!114 &11480990
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 104442}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0552fded803111840980d645c15089ee, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Settings: {fileID: 11400000, guid: 6d0497408b68fb342a1e4a0cfba09403, type: 2}
+  Type: 4
+--- !u!114 &11480992
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 104430}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0552fded803111840980d645c15089ee, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Settings: {fileID: 11400000, guid: 6d0497408b68fb342a1e4a0cfba09403, type: 2}
+  Type: 4
 --- !u!124 &12423946
 Behaviour:
   m_ObjectHideFlags: 1
