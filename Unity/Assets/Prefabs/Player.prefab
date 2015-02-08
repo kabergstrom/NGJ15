@@ -972,6 +972,7 @@ MonoBehaviour:
   Crowbar_Swing: {fileID: 11400000, guid: 57cfde8dc68bb8540bd4d59db23c82b8, type: 2}
   Small_Gun: {fileID: 11400000, guid: 333cdece63ab5c64a8fa972dece703f0, type: 2}
   Big_Gun: {fileID: 11400000, guid: 0c0eac184892c1b4e9415d7de9aa3e23, type: 2}
+  Grenade_throw: {fileID: 11400000, guid: 31e73aff5296b3447bcdae407411ea58, type: 2}
 --- !u!114 &11423946
 MonoBehaviour:
   m_ObjectHideFlags: 1
