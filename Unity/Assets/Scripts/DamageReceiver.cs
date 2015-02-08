@@ -31,4 +31,14 @@ public class DamageReceiver : MonoBehaviour
             Destroy(collision.gameObject);
         }
     }
+
+    void OnTriggerEnter(Collider collider)
+    {
+        if (collider.gameObject.tag.Equals("Bullet"))
+        {
+            DamageEntity obj = collider.gameObject.GetComponent<DamageEntity>();
+            Health -= obj.Damage;
+            Destroy(collider.gameObject);
+        }
+    }
 }
