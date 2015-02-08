@@ -12,8 +12,8 @@ MonoBehaviour:
   m_Name: MurderSettings
   m_EditorClassIdentifier: 
   DummyData:
-    CheatingLevel: 2
-    MurderLevel: 2
+    CheatingLevel: 0
+    MurderLevel: 0
   BorderData:
     CheatingNeededForSuspicion: 2
     MurderNeededForSuspicion: 2

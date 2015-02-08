@@ -21,7 +21,8 @@ public class MurderSettings : ScriptableObject
 	
 	public bool SuspectsNothing()
 	{
-		return DummyData.MurderLevel < BorderData.MurderNeededForSuspicion && DummyData.CheatingLevel < BorderData.CheatingNeededForSuspicion;
+		return DummyData.MurderLevel < BorderData.MurderNeededForSuspicion && 
+		       DummyData.CheatingLevel < BorderData.CheatingNeededForSuspicion;
 	}
 	
 	public bool SuspectsCheating()

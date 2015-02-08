@@ -8,12 +8,10 @@ public class TextEnabler : MonoBehaviour
 	public bool VisibleWhenNormal;
 	public bool VisibleWhenCheating;
 	public bool VisibleWhenMurder;
- 
+		
+	public Renderer TextRenderer;
 	
-	//public Vector2 CheatingLevelsVisible;
-	//public Vector2 MurderLevelVisible;
-	
-	void Update () 
+	void LateUpdate () 
 	{
 		UpdateVisible(); // Make this not update every frame later!			
 	}
@@ -24,6 +22,6 @@ public class TextEnabler : MonoBehaviour
 		(Settings.SuspectsCheating() && VisibleWhenCheating) || 
 			(Settings.SuspectsMurder() && VisibleWhenMurder));
 			
-		renderer.enabled = visible;
+		renderer.enabled = visible;	
 	}
 }
