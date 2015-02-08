@@ -149,7 +149,7 @@ public class WeaponSystem : MonoBehaviour
 
     void DoGun(bool fiering, ref float nextShotTime, float fireRate, ref int ammo, Transform firePos, GameObject bulletPrefab, Animator anim)
     {
-        if (fiering && Time.time > nextShotTime)
+        if (fiering && ammo > 0 && Time.time > nextShotTime)
         {
             anim.Play("Fire");
             nextShotTime = Time.time + (1 / fireRate);
