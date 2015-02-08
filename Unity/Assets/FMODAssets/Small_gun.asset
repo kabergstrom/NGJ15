@@ -1,0 +1,15 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3660ac6b3ad139f45bada5c30fe521a3, type: 3}
+  m_Name: Small_gun
+  m_EditorClassIdentifier: 
+  path: event:/Small_gun
+  id: '{ca282483-2bab-4426-9a81-1baab10679a7}'
