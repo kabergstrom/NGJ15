@@ -1039,19 +1039,24 @@ MonoBehaviour:
   JumpAcceleration:
     serializedVersion: 2
     m_Curve:
-    - time: .00338409469
-      value: .970802784
-      inSlope: 2
-      outSlope: 2
+    - time: .000862246845
+      value: .660651863
+      inSlope: 6.43698978
+      outSlope: 6.43698978
+      tangentMode: 0
+    - time: .164474145
+      value: 1.00954986
+      inSlope: -1.91733158
+      outSlope: -1.91733158
       tangentMode: 0
     - time: .332905531
-      value: -.180491105
+      value: -.1979644
       inSlope: -6.9789691
       outSlope: -6.9789691
       tangentMode: 0
     m_PreInfinity: 2
     m_PostInfinity: 2
-  JumpAccelerationFactor: 40
+  JumpAccelerationFactor: 50
   GroundRayTrans: {fileID: 423952}
   GroundLayer:
     serializedVersion: 2
@@ -1108,7 +1113,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   DebugPlaySound: 1
   StepAsset: {fileID: 11400000, guid: 3bd35ced04d1b754b9c72e7a1386d642, type: 2}
-  StepThreshold: 40
+  StepThreshold: 30
   StepWeight: 10
 --- !u!114 &11450318
 MonoBehaviour:
