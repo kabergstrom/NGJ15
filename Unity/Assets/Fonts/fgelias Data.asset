@@ -1,0 +1,1115 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5b8aff295ee5da048a4e94ecb7e9ca34, type: 3}
+  m_Name: fgelias Data
+  m_EditorClassIdentifier: 
+  Atlas: {fileID: 2800000, guid: 03856d3d918cf4c959a23665f1bb8c2f, type: 3}
+  FontXML: {fileID: 4900000, guid: e9924d06786e040e7ac1fe81cc3c3e56, type: 3}
+  Glyphs:
+    keys: 6100000062000000630000006400000065000000660000006700000068000000690000006a0000006b0000006c0000006d0000006e0000006f000000700000007100000072000000730000007400000075000000760000007700000078000000790000007a0000004100000042000000430000004400000045000000460000004700000048000000490000004a0000004b0000004c0000004d0000004e0000004f000000500000005100000052000000530000005400000055000000560000005700000058000000590000005a00000021000000162100003b000000250000003a0000003f0000002a00000028000000290000005f0000002b0000002d0000003d0000002e0000002c0000002f0000007c00000022000000270000004000000023000000240000005e000000260000007b0000007d0000005b0000005d0000003000000031000000320000003300000034000000350000003600000037000000380000003900000020000000
+    values:
+    - rect:
+        serializedVersion: 2
+        x: .00390625
+        y: .00390625
+        width: .09765625
+        height: .099609375
+      xOffset: .00390625
+      yOffset: .00835937541
+      xAdvance: .0794140622
+      kerning:
+        keys: 
+        values: []
+    - rect:
+        serializedVersion: 2
+        x: .00390625
+        y: .107421875
+        width: .091796875
+        height: .099609375
+      xOffset: .00390625
+      yOffset: .00896484405
+      xAdvance: .0794140622
+      kerning:
+        keys: 
+        values: []
+    - rect:
+        serializedVersion: 2
+        x: .00390625
+        y: .2109375
+        width: .08984375
+        height: .1015625
+      xOffset: .00390625
+      yOffset: .00537109375
+      xAdvance: .0794140622
+      kerning:
+        keys: 
+        values: []
+    - rect:
+        serializedVersion: 2
+        x: .00390625
+        y: .31640625
+        width: .1015625
+        height: .1015625
+      xOffset: .00123046874
+      yOffset: .00824218709
+      xAdvance: .0855078101
+      kerning:
+        keys: 
+        values: []
+    - rect:
+        serializedVersion: 2
+        x: .099609375
+        y: .107421875
+        width: .099609375
+        height: .103515625
+      xOffset: .00171874999
+      yOffset: .00476562511
+      xAdvance: .0855078101
+      kerning:
+        keys: 
+        values: []
+    - rect:
+        serializedVersion: 2
+        x: .00390625
+        y: .421875
+        width: .091796875
+        height: .107421875
+      xOffset: .00390625
+      yOffset: .00048828125
+      xAdvance: .0794140622
+      kerning:
+        keys: 
+        values: []
+    - rect:
+        serializedVersion: 2
+        x: .00390625
+        y: .533203125
+        width: .091796875
+        height: .103515625
+      xOffset: .00390625
+      yOffset: .00896484405
+      xAdvance: .0794140622
+      kerning:
+        keys: 
+        values: []
+    - rect:
+        serializedVersion: 2
+        x: .10546875
+        y: .00390625
+        width: .091796875
+        height: .099609375
+      xOffset: .00390625
+      yOffset: .00824218709
+      xAdvance: .0794140622
+      kerning:
+        keys: 
+        values: []
+    - rect:
+        serializedVersion: 2
+        x: .00390625
+        y: .640625
+        width: .060546875
+        height: .1015625
+      xOffset: .00390625
+      yOffset: .00824218709
+      xAdvance: .0488867201
+      kerning:
+        keys: 
+        values: []
+    - rect:
+        serializedVersion: 2
+        x: .00390625
+        y: .74609375
+        width: .091796875
+        height: .1015625
+      xOffset: .00390625
+      yOffset: .00824218709
+      xAdvance: .0794140622
+      kerning:
+        keys: 
+        values: []
+    - rect:
+        serializedVersion: 2
+        x: .068359375
+        y: .640625
+        width: .09765625
+        height: .1015625
+      xOffset: .00390625
+      yOffset: .00824218709
+      xAdvance: .0843554661
+      kerning:
+        keys: 
+        values: []
+    - rect:
+        serializedVersion: 2
+        x: .00390625
+        y: .8515625
+        width: .091796875
+        height: .1015625
+      xOffset: .00390625
+      yOffset: .00824218709
+      xAdvance: .0794140622
+      kerning:
+        keys: 
+        values: []
+    - rect:
+        serializedVersion: 2
+        x: .099609375
+        y: .421875
+        width: .091796875
+        height: .1015625
+      xOffset: .00359375007
+      yOffset: .00824218709
+      xAdvance: .0794140622
+      kerning:
+        keys: 
+        values: []
+    - rect:
+        serializedVersion: 2
+        x: .099609375
+        y: .52734375
+        width: .091796875
+        height: .1015625
+      xOffset: .00445312494
+      yOffset: .00818359386
+      xAdvance: .0794140622
+      kerning:
+        keys: 
+        values: []
+    - rect:
+        serializedVersion: 2
+        x: .109375
+        y: .21484375
+        width: .091796875
+        height: .109375
+      xOffset: .00390625
+      yOffset: .000429687498
+      xAdvance: .0794140622
+      kerning:
+        keys: 
+        values: []
+    - rect:
+        serializedVersion: 2
+        x: .203125
+        y: .00390625
+        width: .09375
+        height: .1015625
+      xOffset: .00390625
+      yOffset: .00824218709
+      xAdvance: .0794140622
+      kerning:
+        keys: 
+        values: []
+    - rect:
+        serializedVersion: 2
+        x: .203125
+        y: .109375
+        width: .08984375
+        height: .1015625
+      xOffset: .00390625
+      yOffset: .00824218709
+      xAdvance: .0794140622
+      kerning:
+        keys: 
+        values: []
+    - rect:
+        serializedVersion: 2
+        x: .099609375
+        y: .74609375
+        width: .091796875
+        height: .1015625
+      xOffset: .00390625
+      yOffset: .00824218709
+      xAdvance: .0794140622
+      kerning:
+        keys: 
+        values: []
+    - rect:
+        serializedVersion: 2
+        x: .169921875
+        y: .6328125
+        width: .08984375
+        height: .1015625
+      xOffset: .00433593756
+      yOffset: .00763671892
+      xAdvance: .0794140622
+      kerning:
+        keys: 
+        values: []
+    - rect:
+        serializedVersion: 2
+        x: .099609375
+        y: .8515625
+        width: .08984375
+        height: .1015625
+      xOffset: .00499999989
+      yOffset: .00824218709
+      xAdvance: .0794140622
+      kerning:
+        keys: 
+        values: []
+    - rect:
+        serializedVersion: 2
+        x: .193359375
+        y: .8515625
+        width: .091796875
+        height: .1015625
+      xOffset: .00390625
+      yOffset: .00824218709
+      xAdvance: .0794140622
+      kerning:
+        keys: 
+        values: []
+    - rect:
+        serializedVersion: 2
+        x: .1953125
+        y: .73828125
+        width: .091796875
+        height: .1015625
+      xOffset: .00318359374
+      yOffset: .00824218709
+      xAdvance: .0794140622
+      kerning:
+        keys: 
+        values: []
+    - rect:
+        serializedVersion: 2
+        x: .2890625
+        y: .84375
+        width: .091796875
+        height: .1015625
+      xOffset: .00390625
+      yOffset: .00806640647
+      xAdvance: .0794140622
+      kerning:
+        keys: 
+        values: []
+    - rect:
+        serializedVersion: 2
+        x: .1953125
+        y: .328125
+        width: .091796875
+        height: .1015625
+      xOffset: .00390625
+      yOffset: .00824218709
+      xAdvance: .0794140622
+      kerning:
+        keys: 
+        values: []
+    - rect:
+        serializedVersion: 2
+        x: .205078125
+        y: .21484375
+        width: .091796875
+        height: .1015625
+      xOffset: .00373046868
+      yOffset: .00824218709
+      xAdvance: .0794140622
+      kerning:
+        keys: 
+        values: []
+    - rect:
+        serializedVersion: 2
+        x: .296875
+        y: .109375
+        width: .091796875
+        height: .099609375
+      xOffset: .00390625
+      yOffset: .00824218709
+      xAdvance: .0794140622
+      kerning:
+        keys: 
+        values: []
+    - rect:
+        serializedVersion: 2
+        x: .30078125
+        y: .00390625
+        width: .09765625
+        height: .099609375
+      xOffset: .00390625
+      yOffset: .00835937541
+      xAdvance: .0794140622
+      kerning:
+        keys: 
+        values: []
+    - rect:
+        serializedVersion: 2
+        x: .1953125
+        y: .43359375
+        width: .091796875
+        height: .099609375
+      xOffset: .00390625
+      yOffset: .00896484405
+      xAdvance: .0794140622
+      kerning:
+        keys: 
+        values: []
+    - rect:
+        serializedVersion: 2
+        x: .263671875
+        y: .537109375
+        width: .08984375
+        height: .1015625
+      xOffset: .00390625
+      yOffset: .00537109375
+      xAdvance: .0794140622
+      kerning:
+        keys: 
+        values: []
+    - rect:
+        serializedVersion: 2
+        x: .291015625
+        y: .642578125
+        width: .1015625
+        height: .1015625
+      xOffset: .00123046874
+      yOffset: .00824218709
+      xAdvance: .0855078101
+      kerning:
+        keys: 
+        values: []
+    - rect:
+        serializedVersion: 2
+        x: .291015625
+        y: .3203125
+        width: .099609375
+        height: .103515625
+      xOffset: .00171874999
+      yOffset: .00476562511
+      xAdvance: .0855078101
+      kerning:
+        keys: 
+        values: []
+    - rect:
+        serializedVersion: 2
+        x: .392578125
+        y: .107421875
+        width: .091796875
+        height: .107421875
+      xOffset: .00390625
+      yOffset: .00048828125
+      xAdvance: .0794140622
+      kerning:
+        keys: 
+        values: []
+    - rect:
+        serializedVersion: 2
+        x: .291015625
+        y: .427734375
+        width: .091796875
+        height: .103515625
+      xOffset: .00390625
+      yOffset: .00896484405
+      xAdvance: .0794140622
+      kerning:
+        keys: 
+        values: []
+    - rect:
+        serializedVersion: 2
+        x: .40234375
+        y: .00390625
+        width: .091796875
+        height: .099609375
+      xOffset: .00390625
+      yOffset: .00824218709
+      xAdvance: .0794140622
+      kerning:
+        keys: 
+        values: []
+    - rect:
+        serializedVersion: 2
+        x: .30078125
+        y: .212890625
+        width: .060546875
+        height: .1015625
+      xOffset: .00390625
+      yOffset: .00824218709
+      xAdvance: .0488867201
+      kerning:
+        keys: 
+        values: []
+    - rect:
+        serializedVersion: 2
+        x: .357421875
+        y: .53515625
+        width: .091796875
+        height: .1015625
+      xOffset: .00390625
+      yOffset: .00824218709
+      xAdvance: .0794140622
+      kerning:
+        keys: 
+        values: []
+    - rect:
+        serializedVersion: 2
+        x: .38671875
+        y: .427734375
+        width: .09765625
+        height: .1015625
+      xOffset: .00390625
+      yOffset: .00824218709
+      xAdvance: .0843554661
+      kerning:
+        keys: 
+        values: []
+    - rect:
+        serializedVersion: 2
+        x: .39453125
+        y: .21875
+        width: .091796875
+        height: .1015625
+      xOffset: .00390625
+      yOffset: .00824218709
+      xAdvance: .0794140622
+      kerning:
+        keys: 
+        values: []
+    - rect:
+        serializedVersion: 2
+        x: .48828125
+        y: .107421875
+        width: .091796875
+        height: .1015625
+      xOffset: .00359375007
+      yOffset: .00824218709
+      xAdvance: .0794140622
+      kerning:
+        keys: 
+        values: []
+    - rect:
+        serializedVersion: 2
+        x: .384765625
+        y: .748046875
+        width: .091796875
+        height: .1015625
+      xOffset: .00445312494
+      yOffset: .00818359386
+      xAdvance: .0794140622
+      kerning:
+        keys: 
+        values: []
+    - rect:
+        serializedVersion: 2
+        x: .384765625
+        y: .853515625
+        width: .091796875
+        height: .109375
+      xOffset: .00390625
+      yOffset: .000429687498
+      xAdvance: .0794140622
+      kerning:
+        keys: 
+        values: []
+    - rect:
+        serializedVersion: 2
+        x: .396484375
+        y: .640625
+        width: .09375
+        height: .1015625
+      xOffset: .00390625
+      yOffset: .00824218709
+      xAdvance: .0794140622
+      kerning:
+        keys: 
+        values: []
+    - rect:
+        serializedVersion: 2
+        x: .453125
+        y: .533203125
+        width: .08984375
+        height: .1015625
+      xOffset: .00390625
+      yOffset: .00824218709
+      xAdvance: .0794140622
+      kerning:
+        keys: 
+        values: []
+    - rect:
+        serializedVersion: 2
+        x: .48828125
+        y: .32421875
+        width: .091796875
+        height: .1015625
+      xOffset: .00390625
+      yOffset: .00824218709
+      xAdvance: .0794140622
+      kerning:
+        keys: 
+        values: []
+    - rect:
+        serializedVersion: 2
+        x: .490234375
+        y: .212890625
+        width: .08984375
+        height: .1015625
+      xOffset: .00433593756
+      yOffset: .00763671892
+      xAdvance: .0794140622
+      kerning:
+        keys: 
+        values: []
+    - rect:
+        serializedVersion: 2
+        x: .48046875
+        y: .74609375
+        width: .08984375
+        height: .1015625
+      xOffset: .00499999989
+      yOffset: .00824218709
+      xAdvance: .0794140622
+      kerning:
+        keys: 
+        values: []
+    - rect:
+        serializedVersion: 2
+        x: .494140625
+        y: .638671875
+        width: .091796875
+        height: .1015625
+      xOffset: .00390625
+      yOffset: .00824218709
+      xAdvance: .0794140622
+      kerning:
+        keys: 
+        values: []
+    - rect:
+        serializedVersion: 2
+        x: .48046875
+        y: .8515625
+        width: .091796875
+        height: .1015625
+      xOffset: .00318359374
+      yOffset: .00824218709
+      xAdvance: .0794140622
+      kerning:
+        keys: 
+        values: []
+    - rect:
+        serializedVersion: 2
+        x: .57421875
+        y: .744140625
+        width: .091796875
+        height: .1015625
+      xOffset: .00390625
+      yOffset: .00806640647
+      xAdvance: .0794140622
+      kerning:
+        keys: 
+        values: []
+    - rect:
+        serializedVersion: 2
+        x: .576171875
+        y: .849609375
+        width: .091796875
+        height: .1015625
+      xOffset: .00390625
+      yOffset: .00824218709
+      xAdvance: .0794140622
+      kerning:
+        keys: 
+        values: []
+    - rect:
+        serializedVersion: 2
+        x: .546875
+        y: .4296875
+        width: .091796875
+        height: .1015625
+      xOffset: .00373046868
+      yOffset: .00824218709
+      xAdvance: .0794140622
+      kerning:
+        keys: 
+        values: []
+    - rect:
+        serializedVersion: 2
+        x: .546875
+        y: .53515625
+        width: .091796875
+        height: .099609375
+      xOffset: .00390625
+      yOffset: .00824218709
+      xAdvance: .0794140622
+      kerning:
+        keys: 
+        values: []
+    - rect:
+        serializedVersion: 2
+        x: .58984375
+        y: .638671875
+        width: .02734375
+        height: .1015625
+      xOffset: .0165429693
+      yOffset: .00749999983
+      xAdvance: .041015625
+      kerning:
+        keys: 
+        values: []
+    - rect:
+        serializedVersion: 2
+        x: .490234375
+        y: .318359375
+        width: 0
+        height: 0
+      xOffset: 0
+      yOffset: .0924609378
+      xAdvance: .138613284
+      kerning:
+        keys: 
+        values: []
+    - rect:
+        serializedVersion: 2
+        x: .109375
+        y: .328125
+        width: .029296875
+        height: .08984375
+      xOffset: .0111718746
+      yOffset: .037968751
+      xAdvance: .034003906
+      kerning:
+        keys: 
+        values: []
+    - rect:
+        serializedVersion: 2
+        x: .583984375
+        y: .00390625
+        width: .103515625
+        height: .103515625
+      xOffset: .00769531261
+      yOffset: .00732421875
+      xAdvance: .0982617214
+      kerning:
+        keys: 
+        values: []
+    - rect:
+        serializedVersion: 2
+        x: .142578125
+        y: .328125
+        width: .02734375
+        height: .0703125
+      xOffset: .0117773442
+      yOffset: .037910156
+      xAdvance: .034003906
+      kerning:
+        keys: 
+        values: []
+    - rect:
+        serializedVersion: 2
+        x: .48828125
+        y: .4296875
+        width: .044921875
+        height: .099609375
+      xOffset: .0119726565
+      yOffset: .00884765666
+      xAdvance: .0456640609
+      kerning:
+        keys: 
+        values: []
+    - rect:
+        serializedVersion: 2
+        x: .2890625
+        y: .94921875
+        width: .048828125
+        height: .046875
+      xOffset: .0172070321
+      yOffset: 0
+      xAdvance: .0625
+      kerning:
+        keys: 
+        values: []
+    - rect:
+        serializedVersion: 2
+        x: .583984375
+        y: .111328125
+        width: .0390625
+        height: .130859375
+      xOffset: .0192968752
+      yOffset: .000371093745
+      xAdvance: .0462695323
+      kerning:
+        keys: 
+        values: []
+    - rect:
+        serializedVersion: 2
+        x: .583984375
+        y: .24609375
+        width: .0390625
+        height: .130859375
+      xOffset: .00744140614
+      yOffset: .000371093745
+      xAdvance: .0462695323
+      kerning:
+        keys: 
+        values: []
+    - rect:
+        serializedVersion: 2
+        x: .498046875
+        y: .00390625
+        width: .07421875
+        height: .015625
+      xOffset: .00390625
+      yOffset: .102480471
+      xAdvance: .0625
+      kerning:
+        keys: 
+        values: []
+    - rect:
+        serializedVersion: 2
+        x: .1953125
+        y: .537109375
+        width: .064453125
+        height: .06640625
+      xOffset: .00921874959
+      yOffset: .0257617179
+      xAdvance: .0618945323
+      kerning:
+        keys: 
+        values: []
+    - rect:
+        serializedVersion: 2
+        x: .341796875
+        y: .94921875
+        width: .0390625
+        height: .021484375
+      xOffset: .010996094
+      yOffset: .0628710911
+      xAdvance: .0408984385
+      kerning:
+        keys: 
+        values: []
+    - rect:
+        serializedVersion: 2
+        x: .576171875
+        y: .955078125
+        width: .064453125
+        height: .041015625
+      xOffset: .00921874959
+      yOffset: .0388281234
+      xAdvance: .0618945323
+      kerning:
+        keys: 
+        values: []
+    - rect:
+        serializedVersion: 2
+        x: .384765625
+        y: .966796875
+        width: .02734375
+        height: .029296875
+      xOffset: .0117773442
+      yOffset: .0801953152
+      xAdvance: .034003906
+      kerning:
+        keys: 
+        values: []
+    - rect:
+        serializedVersion: 2
+        x: .498046875
+        y: .0234375
+        width: .02734375
+        height: .046875
+      xOffset: .0111718746
+      yOffset: .0806249976
+      xAdvance: .034003906
+      kerning:
+        keys: 
+        values: []
+    - rect:
+        serializedVersion: 2
+        x: .626953125
+        y: .111328125
+        width: .05078125
+        height: .103515625
+      xOffset: .00470703142
+      yOffset: .00884765666
+      xAdvance: .0347265638
+      kerning:
+        keys: 
+        values: []
+    - rect:
+        serializedVersion: 2
+        x: .626953125
+        y: .21875
+        width: .021484375
+        height: .134765625
+      xOffset: .0299609378
+      yOffset: .000117187497
+      xAdvance: .0618945323
+      kerning:
+        keys: 
+        values: []
+    - rect:
+        serializedVersion: 2
+        x: .64453125
+        y: .955078125
+        width: .041015625
+        height: .041015625
+      xOffset: .0100781247
+      yOffset: .000117187497
+      xAdvance: .041015625
+      kerning:
+        keys: 
+        values: []
+    - rect:
+        serializedVersion: 2
+        x: .263671875
+        y: .642578125
+        width: .021484375
+        height: .041015625
+      xOffset: .0100781247
+      yOffset: .000117187497
+      xAdvance: .0211132821
+      kerning:
+        keys: 
+        values: []
+    - rect:
+        serializedVersion: 2
+        x: .642578125
+        y: .357421875
+        width: .12109375
+        height: .125
+      xOffset: .0100195315
+      yOffset: .00884765666
+      xAdvance: .123222657
+      kerning:
+        keys: 
+        values: []
+    - rect:
+        serializedVersion: 2
+        x: .39453125
+        y: .32421875
+        width: .080078125
+        height: .099609375
+      xOffset: .0110546872
+      yOffset: .00884765666
+      xAdvance: .0815429688
+      kerning:
+        keys: 
+        values: []
+    - rect:
+        serializedVersion: 2
+        x: .65234375
+        y: .21875
+        width: .06640625
+        height: .123046875
+      xOffset: .0108007817
+      yOffset: .00164062495
+      xAdvance: .0618945323
+      kerning:
+        keys: 
+        values: []
+    - rect:
+        serializedVersion: 2
+        x: .494140625
+        y: .318359375
+        width: 0
+        height: 0
+      xOffset: 0
+      yOffset: .0924609378
+      xAdvance: .0618945323
+      kerning:
+        keys: 
+        values: []
+    - rect:
+        serializedVersion: 2
+        x: .62109375
+        y: .638671875
+        width: .103515625
+        height: .1015625
+      xOffset: .0131835938
+      yOffset: .00763671892
+      xAdvance: .102714844
+      kerning:
+        keys: 
+        values: []
+    - rect:
+        serializedVersion: 2
+        x: .642578125
+        y: .486328125
+        width: .052734375
+        height: .123046875
+      xOffset: .0185546875
+      yOffset: 0
+      xAdvance: .0618945323
+      kerning:
+        keys: 
+        values: []
+    - rect:
+        serializedVersion: 2
+        x: .69921875
+        y: .486328125
+        width: .052734375
+        height: .123046875
+      xOffset: .0118359374
+      yOffset: 0
+      xAdvance: .0618945323
+      kerning:
+        keys: 
+        values: []
+    - rect:
+        serializedVersion: 2
+        x: .498046875
+        y: .318359375
+        width: 0
+        height: 0
+      xOffset: 0
+      yOffset: .0924609378
+      xAdvance: .0462695323
+      kerning:
+        keys: 
+        values: []
+    - rect:
+        serializedVersion: 2
+        x: .501953125
+        y: .318359375
+        width: 0
+        height: 0
+      xOffset: 0
+      yOffset: .0924609378
+      xAdvance: .0462695323
+      kerning:
+        keys: 
+        values: []
+    - rect:
+        serializedVersion: 2
+        x: .669921875
+        y: .744140625
+        width: .091796875
+        height: .1015625
+      xOffset: .00390625
+      yOffset: .00824218709
+      xAdvance: .0794140622
+      kerning:
+        keys: 
+        values: []
+    - rect:
+        serializedVersion: 2
+        x: .671875
+        y: .849609375
+        width: .0546875
+        height: .099609375
+      xOffset: .0161132812
+      yOffset: .00896484405
+      xAdvance: .067207031
+      kerning:
+        keys: 
+        values: []
+    - rect:
+        serializedVersion: 2
+        x: .681640625
+        y: .111328125
+        width: .091796875
+        height: .1015625
+      xOffset: .00390625
+      yOffset: .00824218709
+      xAdvance: .0794140622
+      kerning:
+        keys: 
+        values: []
+    - rect:
+        serializedVersion: 2
+        x: .69140625
+        y: .00390625
+        width: .091796875
+        height: .1015625
+      xOffset: .00464843772
+      yOffset: .00824218709
+      xAdvance: .0794140622
+      kerning:
+        keys: 
+        values: []
+    - rect:
+        serializedVersion: 2
+        x: .728515625
+        y: .61328125
+        width: .091796875
+        height: .1015625
+      xOffset: .00390625
+      yOffset: .00824218709
+      xAdvance: .0794140622
+      kerning:
+        keys: 
+        values: []
+    - rect:
+        serializedVersion: 2
+        x: .755859375
+        y: .486328125
+        width: .091796875
+        height: .099609375
+      xOffset: .00390625
+      yOffset: .00939453114
+      xAdvance: .0794140622
+      kerning:
+        keys: 
+        values: []
+    - rect:
+        serializedVersion: 2
+        x: .72265625
+        y: .216796875
+        width: .087890625
+        height: .099609375
+      xOffset: .00390625
+      yOffset: .00867187511
+      xAdvance: .0794140622
+      kerning:
+        keys: 
+        values: []
+    - rect:
+        serializedVersion: 2
+        x: .77734375
+        y: .109375
+        width: .091796875
+        height: .099609375
+      xOffset: .00390625
+      yOffset: .00896484405
+      xAdvance: .0794140622
+      kerning:
+        keys: 
+        values: []
+    - rect:
+        serializedVersion: 2
+        x: .787109375
+        y: .00390625
+        width: .091796875
+        height: .099609375
+      xOffset: .00390625
+      yOffset: .00896484405
+      xAdvance: .0794140622
+      kerning:
+        keys: 
+        values: []
+    - rect:
+        serializedVersion: 2
+        x: .73046875
+        y: .849609375
+        width: .091796875
+        height: .1015625
+      xOffset: .00390625
+      yOffset: .00824218709
+      xAdvance: .0794140622
+      kerning:
+        keys: 
+        values: []
+    - rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 0
+        height: 0
+      xOffset: .00390625
+      yOffset: .00824218709
+      xAdvance: .0488867201
+      kerning:
+        keys: 
+        values: []
+  KerningPairs: 0
+  BaseSize: 64
+  LineHeight: .139648438
+  HScale: 1
+  VScale: 1

@@ -60,6 +60,8 @@ public class FPSMovement : MonoBehaviour
 
     void Awake()
     {
+        Screen.showCursor = false;
+        Screen.lockCursor = true;
         _Rigibody = GetComponent<Rigidbody>();
         _Transform = GetComponent<Transform>();
 

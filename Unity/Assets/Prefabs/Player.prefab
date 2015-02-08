@@ -63,6 +63,7 @@ GameObject:
   serializedVersion: 4
   m_Component:
   - 4: {fileID: 404436}
+  - 95: {fileID: 9553646}
   m_Layer: 0
   m_Name: BetterGun
   m_TagString: Untagged
@@ -78,6 +79,7 @@ GameObject:
   serializedVersion: 4
   m_Component:
   - 4: {fileID: 404438}
+  - 95: {fileID: 9553648}
   m_Layer: 0
   m_Name: Gun
   m_TagString: Untagged
@@ -145,7 +147,7 @@ GameObject:
   m_Component:
   - 4: {fileID: 423948}
   m_Layer: 0
-  m_Name: MuzzlePosition
+  m_Name: BetterGunMuzzlePosition
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -196,11 +198,27 @@ GameObject:
   - 33: {fileID: 3323946}
   - 136: {fileID: 13623946}
   - 23: {fileID: 2323946}
-  - 114: {fileID: 11423946}
   - 54: {fileID: 5423946}
+  - 114: {fileID: 11423946}
   - 114: {fileID: 11404432}
+  - 114: {fileID: 11426448}
   m_Layer: 0
   m_Name: Player
+  m_TagString: Player
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &132032
+GameObject:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 432032}
+  m_Layer: 0
+  m_Name: NormalGunMuzzlePosition
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -367,11 +385,11 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 123948}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: .351999998, y: -.279000014, z: .693000019}
+  m_LocalPosition: {x: .351999998, y: -.238000005, z: 1.78299999}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 423950}
-  m_RootOrder: 3
+  m_RootOrder: 4
 --- !u!4 &423950
 Transform:
   m_ObjectHideFlags: 1
@@ -385,6 +403,7 @@ Transform:
   - {fileID: 404438}
   - {fileID: 404436}
   - {fileID: 423946}
+  - {fileID: 432032}
   - {fileID: 423948}
   - {fileID: 450320}
   m_Father: {fileID: 423954}
@@ -408,13 +427,25 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 123954}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -45.7799988, y: 3.95000005, z: -26}
+  m_LocalPosition: {x: -45.7799988, y: 3.1099999, z: -44.5400009}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 423952}
   - {fileID: 423950}
   m_Father: {fileID: 0}
   m_RootOrder: 0
+--- !u!4 &432032
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 132032}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: .351999998, y: -.26699999, z: .842999995}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 423950}
+  m_RootOrder: 3
 --- !u!4 &450318
 Transform:
   m_ObjectHideFlags: 1
@@ -440,7 +471,7 @@ Transform:
   - {fileID: 450318}
   - {fileID: 404442}
   m_Father: {fileID: 423950}
-  m_RootOrder: 4
+  m_RootOrder: 5
 --- !u!4 &450322
 Transform:
   m_ObjectHideFlags: 1
@@ -793,6 +824,36 @@ Animator:
   m_ApplyRootMotion: 1
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
+--- !u!95 &9553646
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 104436}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: fbf301632982cd44cab153914248416a, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 1
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+--- !u!95 &9553648
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 104438}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 3fedfe75790578c4ba1dd3301c9ca260, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 1
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
 --- !u!114 &11404426
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -894,7 +955,7 @@ MonoBehaviour:
   Prefabs:
     GranadePrefab: {fileID: 116284, guid: 43b552e3b34278d46a522871acfb8163, type: 2}
     NormalBulletPrefab: {fileID: 195294, guid: c8e71dec8e23d04458491c4bd9d1080a, type: 2}
-    BetterBulletPrefab: {fileID: 195294, guid: c8e71dec8e23d04458491c4bd9d1080a, type: 2}
+    BetterBulletPrefab: {fileID: 118024, guid: 415c3334d253d334bab4ce7a5698f357, type: 2}
   InputSettings:
     GranadeKey: 103
   InventoryItems:
@@ -906,11 +967,13 @@ MonoBehaviour:
     GranadeThrowForce: {x: 0, y: 1, z: 2}
     BulletFireForce: 1
     NormalGunFireRate: 5
-    BetterGunFireRate: 10
+    BetterGunFireRate: 1
     MeleeHitRate: 1
   GranadeStartPos: {fileID: 423946}
-  FireDirection: {fileID: 423948}
+  NormalGunFireDirection: {fileID: 432032}
+  BetterGunFireDirection: {fileID: 423948}
   GranadeCount: 2
+  NormalGunAmmo: 0
   BetterGunAmmo: 1000
 --- !u!114 &11423946
 MonoBehaviour:
@@ -993,6 +1056,18 @@ MonoBehaviour:
     m_Bits: 1
   HeadCamera: {fileID: 423950}
   CurrentSpeed: 0
+--- !u!114 &11426448
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 123954}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 12310abd197246e45b1593b8f28a1d9a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Health: 100
 --- !u!114 &11429196
 MonoBehaviour:
   m_ObjectHideFlags: 1
