@@ -8,12 +8,8 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 6621cee78b8515042b5d7ca3814c01a7, type: 3}
-  m_Name: MurderSettings
+  m_Script: {fileID: 11500000, guid: 3660ac6b3ad139f45bada5c30fe521a3, type: 3}
+  m_Name: Big_Gun
   m_EditorClassIdentifier: 
-  DummyData:
-    CheatingLevel: 0
-    MurderLevel: 0
-  BorderData:
-    CheatingNeededForSuspicion: 2
-    MurderNeededForSuspicion: 2
+  path: event:/Big_Gun
+  id: '{f1e91af7-3984-4c9d-b416-3471aa4f4910}'

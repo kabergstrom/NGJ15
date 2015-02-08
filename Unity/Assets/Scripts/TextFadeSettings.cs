@@ -14,6 +14,7 @@ public enum TextFadeType
 {
     Default = 0,
     FadeOutClose = 1,
+    FadeInFadeOut = 2,
 }
 
 public class TextFadeSettings : ScriptableObject

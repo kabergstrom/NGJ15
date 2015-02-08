@@ -1,5 +1,7 @@
 ﻿using UnityEngine;
 using System.Collections;
+using FMOD.Studio;
+
 
 public class WeaponSystem : MonoBehaviour
 {
@@ -69,6 +71,21 @@ public class WeaponSystem : MonoBehaviour
     private Animator _BetterGunAnim;
     private Crowbar _Crowbar;
 
+
+	//-------- Start FMOD 
+	
+	
+	public FMODAsset Crowbar_Swing;
+	public FMODAsset Small_Gun;
+	public FMODAsset Big_Gun;
+		
+	
+	
+	
+	
+	
+	
+	//-------- End FMOD
     void Start()
     {
         _CurrentWeapon = Weapons.Crowbar;
@@ -140,6 +157,16 @@ public class WeaponSystem : MonoBehaviour
 
             GameObject obj = (GameObject)Instantiate(bulletPrefab, firePos.position, firePos.rotation);
             obj.GetComponent<Rigidbody>().AddForce(BetterGunFireDirection.forward * WeaponSettings.BulletFireForce, ForceMode.Impulse);
+            
+            if (anim == _BetterGunAnim && Big_Gun != null)
+            {
+            	FMOD_StudioSystem.instance.PlayOneShot(Big_Gun, transform.position);
+            }
+            if (anim ==_NormalGunAnim && Small_Gun != null)
+            {
+            	FMOD_StudioSystem.instance.PlayOneShot(Small_Gun, transform.position);
+            }
+            	
         }
     }
 
@@ -150,6 +177,10 @@ public class WeaponSystem : MonoBehaviour
             _CrowbarAnim.Play("Hit");
             _TimeUntilNextMeleeHit = Time.time + (1 / WeaponSettings.MeleeHitRate);
             _Crowbar.InHit = false;
+            if (Crowbar_Swing != null)
+            {
+				FMOD_StudioSystem.instance.PlayOneShot(Crowbar_Swing, transform.position);
+            }
         }
     }
 
@@ -163,3 +194,4 @@ public class WeaponSystem : MonoBehaviour
         }
     }
 }
+	

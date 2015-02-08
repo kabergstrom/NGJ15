@@ -1,14 +1,17 @@
 ﻿using UnityEngine;
 using System.Collections;
 
+
 public class Crowbar : MonoBehaviour
 {
     public int Damage;
     public bool InHit;
+  
 
     void Start()
     {
         InHit = true;
+         
     }
 
     void OnTriggerEnter(Collider collider)
