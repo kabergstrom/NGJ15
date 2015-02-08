@@ -6,6 +6,8 @@ public class ExplodingBarrel : MonoBehaviour
     public float Damage;
     public float ExplotionRadius;
 
+    public GameObject ExplosionEffect;
+
     int _LayerMask;
     DamageReceiver _DamageReceiver;
 
@@ -26,5 +28,7 @@ public class ExplodingBarrel : MonoBehaviour
             DamageReceiver obj = hit.GetComponent<DamageReceiver>();
             obj.Health -= (int)(Damage * (1 - (dist / ExplotionRadius)));
         }
+
+        Instantiate(ExplosionEffect, transform.position, Quaternion.identity);
     }
 }
