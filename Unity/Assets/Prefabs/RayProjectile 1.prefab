@@ -11,7 +11,7 @@ GameObject:
   - 33: {fileID: 3318022}
   - 23: {fileID: 2318022}
   - 114: {fileID: 11418022}
-  m_Layer: 0
+  m_Layer: 11
   m_Name: Cylinder
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -30,7 +30,7 @@ GameObject:
   - 54: {fileID: 5418022}
   - 136: {fileID: 13666292}
   - 114: {fileID: 11484302}
-  m_Layer: 0
+  m_Layer: 11
   m_Name: RayProjectile 1
   m_TagString: Untagged
   m_Icon: {fileID: 0}

@@ -13,7 +13,7 @@ GameObject:
   - 23: {fileID: 2316284}
   - 54: {fileID: 5416284}
   - 114: {fileID: 11412418}
-  m_Layer: 0
+  m_Layer: 11
   m_Name: Granade
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -33,7 +33,7 @@ GameObject:
   - 114: {fileID: 11479492}
   - 114: {fileID: 11479494}
   - 114: {fileID: 11479490}
-  m_Layer: 0
+  m_Layer: 11
   m_Name: Wall
   m_TagString: Untagged
   m_Icon: {fileID: 0}

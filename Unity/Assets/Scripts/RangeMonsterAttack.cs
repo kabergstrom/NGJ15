@@ -22,7 +22,8 @@ public class RangeMonsterAttack : MonoBehaviour
 	
 	void Update ()
     {
-        if (Movement.CanSee && Time.time > _NextFireTime)
+        bool canSee = Movement == null || Movement.CanSee;
+        if (canSee && Time.time > _NextFireTime)
         {
             _NextFireTime = Time.time + (1 / FireRate);
             GameObject obj = (GameObject)Instantiate(ProjectilePrefab, LaunchPosition.position, Quaternion.identity);

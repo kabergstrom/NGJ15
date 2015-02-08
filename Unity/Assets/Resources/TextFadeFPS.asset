@@ -387,3 +387,78 @@ MonoBehaviour:
       m_NumColorKeys: 2
       m_NumAlphaKeys: 4
     ViewDirFactor: .75
+  - Type: 5
+    MinDistance:
+      serializedVersion: 2
+      m_Curve:
+      - time: -.037348669
+        value: .588398635
+        inSlope: .27163595
+        outSlope: .27163595
+        tangentMode: 10
+      - time: 30.0979767
+        value: 8.77423668
+        inSlope: .27163595
+        outSlope: .27163595
+        tangentMode: 10
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+    MaxDistance:
+      serializedVersion: 2
+      m_Curve:
+      - time: -.0457576029
+        value: 4.75296831
+        inSlope: 1.13278759
+        outSlope: 1.13278759
+        tangentMode: 10
+      - time: 19.9767876
+        value: 27.4342575
+        inSlope: 1.13278759
+        outSlope: 1.13278759
+        tangentMode: 10
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+    FadeGradient:
+      key0:
+        serializedVersion: 2
+        rgba: 3629440
+      key1:
+        serializedVersion: 2
+        rgba: 4281819520
+      key2:
+        serializedVersion: 2
+        rgba: 4211081215
+      key3:
+        serializedVersion: 2
+        rgba: 0
+      key4:
+        serializedVersion: 2
+        rgba: 0
+      key5:
+        serializedVersion: 2
+        rgba: 0
+      key6:
+        serializedVersion: 2
+        rgba: 0
+      key7:
+        serializedVersion: 2
+        rgba: 0
+      ctime0: 0
+      ctime1: 65535
+      ctime2: 65535
+      ctime3: 0
+      ctime4: 0
+      ctime5: 0
+      ctime6: 0
+      ctime7: 0
+      atime0: 0
+      atime1: 5204
+      atime2: 19275
+      atime3: 65535
+      atime4: 0
+      atime5: 0
+      atime6: 0
+      atime7: 0
+      m_NumColorKeys: 2
+      m_NumAlphaKeys: 4
+    ViewDirFactor: 1
