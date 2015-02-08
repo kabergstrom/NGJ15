@@ -4221,6 +4221,7 @@ GameObject:
   - 20: {fileID: 362994288}
   - 92: {fileID: 362994287}
   - 124: {fileID: 362994286}
+  - 114: {fileID: 362994290}
   - 114: {fileID: 362994285}
   - 114: {fileID: 362994289}
   m_Layer: 0
@@ -4320,34 +4321,19 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a773099f140e846f7835d27351846623, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  tweakMode: 0
-  screenBlendMode: 1
-  hdr: 0
-  sepBlurSpread: 2.5
-  quality: 1
-  bloomIntensity: .5
-  bloomThreshhold: .5
-  bloomThreshholdColor: {r: 1, g: 1, b: 1, a: 1}
-  bloomBlurIterations: 2
-  hollywoodFlareBlurIterations: 2
-  flareRotation: 0
-  lensflareMode: 1
-  hollyStretchWidth: 2.5
-  lensflareIntensity: 0
-  lensflareThreshhold: .300000012
-  lensFlareSaturation: .75
-  flareColorA: {r: .400000006, g: .400000006, b: .800000012, a: .75}
-  flareColorB: {r: .400000006, g: .800000012, b: .800000012, a: .75}
-  flareColorC: {r: .800000012, g: .400000006, b: .800000012, a: .75}
-  flareColorD: {r: .800000012, g: .400000006, b: 0, a: .75}
-  blurWidth: 1
-  lensFlareVignetteMask: {fileID: 2800000, guid: 95ef4804fe0be4c999ddaa383536cde8,
-    type: 3}
-  lensFlareShader: {fileID: 4800000, guid: 459fe69d2f6d74ddb92f04dbf45a866b, type: 3}
-  screenBlendShader: {fileID: 4800000, guid: 7856cbff0a0ca45c787d5431eb805bb0, type: 3}
-  blurAndFlaresShader: {fileID: 4800000, guid: be6e39cf196f146d5be72fbefb18ed75, type: 3}
-  brightPassFilterShader: {fileID: 4800000, guid: 0aeaa4cb29f5d4e9c8455f04c8575c8c,
-    type: 3}
+--- !u!114 &362994290
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 11436692, guid: 241176c786ec38f4b9cdb781de626584,
+    type: 2}
+  m_PrefabInternal: {fileID: 309912012}
+  m_GameObject: {fileID: 362994283}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dcc06d36d3b753d489e4f95913ec574a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  pluginPaths: []
 --- !u!1 &363214082
 GameObject:
   m_ObjectHideFlags: 0
@@ -7027,6 +7013,7 @@ GameObject:
   - 114: {fileID: 537358786}
   - 114: {fileID: 537358791}
   - 114: {fileID: 537358792}
+  - 114: {fileID: 537358793}
   - 114: {fileID: 537358790}
   m_Layer: 0
   m_Name: Player
@@ -7240,6 +7227,10 @@ MonoBehaviour:
   GranadeCount: 2
   NormalGunAmmo: 0
   BetterGunAmmo: 1000
+  Crowbar_Swing: {fileID: 11400000, guid: 57cfde8dc68bb8540bd4d59db23c82b8, type: 2}
+  Small_Gun: {fileID: 11400000, guid: 333cdece63ab5c64a8fa972dece703f0, type: 2}
+  Big_Gun: {fileID: 11400000, guid: 0c0eac184892c1b4e9415d7de9aa3e23, type: 2}
+  Grenade_throw: {fileID: 11400000, guid: 31e73aff5296b3447bcdae407411ea58, type: 2}
 --- !u!114 &537358792
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -7253,6 +7244,22 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Health: 100
+--- !u!114 &537358793
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 11436694, guid: 241176c786ec38f4b9cdb781de626584,
+    type: 2}
+  m_PrefabInternal: {fileID: 309912012}
+  m_GameObject: {fileID: 537358783}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: db5a561bb47297b43afd6428db715a9e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  DebugPlaySound: 1
+  StepAsset: {fileID: 11400000, guid: 3bd35ced04d1b754b9c72e7a1386d642, type: 2}
+  StepThreshold: 40
+  StepWeight: 10
 --- !u!1 &544149796
 GameObject:
   m_ObjectHideFlags: 0
