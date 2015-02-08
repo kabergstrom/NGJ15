@@ -9,3 +9,7 @@ Unity/Assembly-CSharp-Editor-vs.csproj
 Unity/Assembly-CSharp-Editor.csproj
 Unity/Assembly-CSharp-firstpass-vs.csproj
 Unity/Assembly-CSharp-firstpass.csproj
+Unity/Assembly-UnityScript-Editor-vs.unityproj
+Unity/Assembly-UnityScript-Editor.unityproj
+Unity/Assembly-UnityScript-firstpass-vs.unityproj
+Unity/Assembly-UnityScript-firstpass.unityproj
