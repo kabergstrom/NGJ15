@@ -12,7 +12,7 @@ GameObject:
   - 23: {fileID: 2324320}
   m_Layer: 0
   m_Name: Mesh
-  m_TagString: Untagged
+  m_TagString: Props
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -25,6 +25,7 @@ GameObject:
   serializedVersion: 4
   m_Component:
   - 4: {fileID: 424318}
+  - 114: {fileID: 11474192}
   m_Layer: 0
   m_Name: Jacket
   m_TagString: Untagged
@@ -46,27 +47,7 @@ GameObject:
   - 114: {fileID: 11424314}
   - 114: {fileID: 11424312}
   m_Layer: 0
-  m_Name: Jac
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!1 &124322
-GameObject:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  serializedVersion: 4
-  m_Component:
-  - 4: {fileID: 424322}
-  - 23: {fileID: 2324324}
-  - 33: {fileID: 3324324}
-  - 114: {fileID: 11424318}
-  - 114: {fileID: 11424320}
-  - 114: {fileID: 11424322}
-  m_Layer: 0
-  m_Name: ket
+  m_Name: Jacket
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -101,6 +82,7 @@ GameObject:
   - 114: {fileID: 11475524}
   - 114: {fileID: 11475526}
   - 114: {fileID: 11475528}
+  - 114: {fileID: 11474190}
   m_Layer: 0
   m_Name: I need to get rid of this!
   m_TagString: Untagged
@@ -121,6 +103,7 @@ GameObject:
   - 114: {fileID: 11475530}
   - 114: {fileID: 11475532}
   - 114: {fileID: 11475534}
+  - 114: {fileID: 11474188}
   m_Layer: 0
   m_Name: Too big for me
   m_TagString: Untagged
@@ -159,15 +142,15 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 424324}
-  m_RootOrder: 5
+  m_RootOrder: 4
 --- !u!4 &424318
 Transform:
   m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 124318}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -.381691933, y: 1.87660289, z: -22.4061165}
+  m_LocalRotation: {x: 0, y: -0, z: 0, w: 1}
+  m_LocalPosition: {x: -.414999992, y: 1.97899997, z: -22.3929996}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 424324}
@@ -179,24 +162,12 @@ Transform:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 124320}
-  m_LocalRotation: {x: 0, y: -.999747396, z: 0, w: -.0224777982}
-  m_LocalPosition: {x: .699999988, y: .82099998, z: -.0149999997}
-  m_LocalScale: {x: .748377264, y: .748377204, z: .748377204}
+  m_LocalRotation: {x: 0, y: -.999991953, z: 0, w: .00401435187}
+  m_LocalPosition: {x: .722000003, y: .656000018, z: -.0480000004}
+  m_LocalScale: {x: .66386354, y: 1.58092272, z: .748377204}
   m_Children: []
   m_Father: {fileID: 424324}
   m_RootOrder: 0
---- !u!4 &424322
-Transform:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 124322}
-  m_LocalRotation: {x: 0, y: -.999747336, z: 0, w: -.0224780068}
-  m_LocalPosition: {x: .699519455, y: .428347111, z: -.0146255493}
-  m_LocalScale: {x: .748378098, y: .748377025, z: .748377979}
-  m_Children: []
-  m_Father: {fileID: 424324}
-  m_RootOrder: 1
 --- !u!4 &424324
 Transform:
   m_ObjectHideFlags: 1
@@ -204,11 +175,10 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 124324}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -.25, y: -.181999996, z: .109999999}
+  m_LocalPosition: {x: -.25, y: -.296000004, z: .109999999}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 424320}
-  - {fileID: 424322}
   - {fileID: 475528}
   - {fileID: 475526}
   - {fileID: 475524}
@@ -222,11 +192,11 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 175524}
   m_LocalRotation: {x: 0, y: 1, z: 0, w: 0}
-  m_LocalPosition: {x: .591000021, y: -.101000004, z: -.0240000002}
+  m_LocalPosition: {x: .481999993, y: .986999989, z: -.0869999975}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 424324}
-  m_RootOrder: 4
+  m_RootOrder: 3
 --- !u!4 &475526
 Transform:
   m_ObjectHideFlags: 1
@@ -234,11 +204,11 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 175526}
   m_LocalRotation: {x: 0, y: 1, z: 0, w: 0}
-  m_LocalPosition: {x: .435000002, y: .885999978, z: -.0240000002}
+  m_LocalPosition: {x: .435000002, y: .899999976, z: -.0879999995}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 424324}
-  m_RootOrder: 3
+  m_RootOrder: 2
 --- !u!4 &475528
 Transform:
   m_ObjectHideFlags: 1
@@ -246,11 +216,11 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 175528}
   m_LocalRotation: {x: 0, y: 1, z: 0, w: -4.37113883e-08}
-  m_LocalPosition: {x: .688000023, y: .0680000037, z: -.0240000002}
+  m_LocalPosition: {x: .629000008, y: .199000001, z: -.0790000036}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 424324}
-  m_RootOrder: 2
+  m_RootOrder: 1
 --- !u!23 &2324320
 Renderer:
   m_ObjectHideFlags: 1
@@ -277,26 +247,6 @@ Renderer:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 124320}
-  m_Enabled: 1
-  m_CastShadows: 1
-  m_ReceiveShadows: 1
-  m_LightmapIndex: 255
-  m_LightmapTilingOffset: {x: 1, y: 1, z: 0, w: 0}
-  m_Materials:
-  - {fileID: 2100000, guid: 86932fcd7a173489aac2ae3f67a12c5f, type: 2}
-  m_SubsetIndices: 
-  m_StaticBatchRoot: {fileID: 0}
-  m_UseLightProbes: 0
-  m_LightProbeAnchor: {fileID: 0}
-  m_ScaleInLightmap: 1
-  m_SortingLayerID: 0
-  m_SortingOrder: 0
---- !u!23 &2324324
-Renderer:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 124322}
   m_Enabled: 1
   m_CastShadows: 1
   m_ReceiveShadows: 1
@@ -377,20 +327,13 @@ MeshFilter:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 124316}
-  m_Mesh: {fileID: 4300152, guid: 3d3c681f64dac8f42b497e707b62066c, type: 3}
+  m_Mesh: {fileID: 4300128, guid: 3d3c681f64dac8f42b497e707b62066c, type: 3}
 --- !u!33 &3324322
 MeshFilter:
   m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 124320}
-  m_Mesh: {fileID: 0}
---- !u!33 &3324324
-MeshFilter:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 124322}
   m_Mesh: {fileID: 0}
 --- !u!33 &3375524
 MeshFilter:
@@ -424,11 +367,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 578c6b5577e7bbc41a33c1e3ec88c478, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Settings: {fileID: 11400000, guid: 125fabd5d9482254b8122b5037df3491, type: 2}
   VisibleWhenNormal: 1
   VisibleWhenCheating: 1
   VisibleWhenMurder: 1
-  TextRenderer: {fileID: 0}
+  CoatIsGone: 0
 --- !u!114 &11424314
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -454,8 +396,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Font: {fileID: 11400000, guid: 0d5c0e41820f14a60984d1259cae5c7d, type: 2}
-  Text: Jac-
-  Size: 5
+  Text: Jacket
+  Size: 3
   Leading: 0
   Tracking: 0
   ParagraphSpacing: 0
@@ -471,64 +413,6 @@ MonoBehaviour:
   EnableClickSupport: 1
   DrawGlyphBoundsGizmos: 0
   AutoRebuild: 1
---- !u!114 &11424318
-MonoBehaviour:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 124322}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 5b8e88b798241f94fa7265f167d0478b, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  Font: {fileID: 11400000, guid: 0d5c0e41820f14a60984d1259cae5c7d, type: 2}
-  Text: ket
-  Size: 5
-  Leading: 0
-  Tracking: 0
-  ParagraphSpacing: 0
-  WordWrap: 0
-  Alignment: 0
-  FillMode: 0
-  ColorTopLeft: {r: .309803933, g: .0509803928, b: .109803922, a: 1}
-  ColorTopRight: {r: 1, g: 1, b: 1, a: 1}
-  ColorBottomLeft: {r: 1, g: 1, b: 1, a: 1}
-  ColorBottomRight: {r: 1, g: 1, b: 1, a: 1}
-  GenerateNormals: 1
-  Stationary: 1
-  EnableClickSupport: 1
-  DrawGlyphBoundsGizmos: 0
-  AutoRebuild: 1
---- !u!114 &11424320
-MonoBehaviour:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 124322}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 0552fded803111840980d645c15089ee, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  Settings: {fileID: 11400000, guid: 2fdbc4467ea7f4db5801b288ec54b7e5, type: 2}
-  Type: 0
---- !u!114 &11424322
-MonoBehaviour:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 124322}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 578c6b5577e7bbc41a33c1e3ec88c478, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  Settings: {fileID: 11400000, guid: 125fabd5d9482254b8122b5037df3491, type: 2}
-  VisibleWhenNormal: 1
-  VisibleWhenCheating: 1
-  VisibleWhenMurder: 1
-  TextRenderer: {fileID: 0}
 --- !u!114 &11424324
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -544,6 +428,50 @@ MonoBehaviour:
   SizeModifier: 1.5
   MinDistance: 2
   MaxDistance: 3
+  _Active: 1
+--- !u!114 &11474188
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 175526}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2b23cf4ef5f348b43b20bc1ba1244c49, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  IncreaseCheating: 1
+  IncreaseMurder: 0
+  TriggerCoat: 0
+  Coat: {fileID: 0}
+--- !u!114 &11474190
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 175524}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2b23cf4ef5f348b43b20bc1ba1244c49, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  IncreaseCheating: 0
+  IncreaseMurder: 0
+  TriggerCoat: 1
+  Coat: {fileID: 11474192}
+--- !u!114 &11474192
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 124318}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f17260f883e13e74d8bcec0063665fc2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Door: {fileID: 0}
+  PlayerMovement: {fileID: 0}
 --- !u!114 &11475524
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -556,8 +484,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Font: {fileID: 11400000, guid: 505b67d6795ce1941ab5cc3339bfe916, type: 2}
-  Text: I need to get rid of this!
-  Size: .5
+  Text: "   I need to \nget rid of this!"
+  Size: .75
   Leading: 0
   Tracking: 0
   ParagraphSpacing: 0
@@ -597,11 +525,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 578c6b5577e7bbc41a33c1e3ec88c478, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Settings: {fileID: 11400000, guid: 125fabd5d9482254b8122b5037df3491, type: 2}
   VisibleWhenNormal: 0
   VisibleWhenCheating: 0
   VisibleWhenMurder: 1
-  TextRenderer: {fileID: 0}
+  CoatIsGone: 0
 --- !u!114 &11475530
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -614,7 +541,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Font: {fileID: 11400000, guid: 505b67d6795ce1941ab5cc3339bfe916, type: 2}
-  Text: Too big for me
+  Text: '        It''s
+
+    too big for me'
   Size: .5
   Leading: 0
   Tracking: 0
@@ -655,11 +584,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 578c6b5577e7bbc41a33c1e3ec88c478, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Settings: {fileID: 11400000, guid: 125fabd5d9482254b8122b5037df3491, type: 2}
   VisibleWhenNormal: 1
   VisibleWhenCheating: 1
-  VisibleWhenMurder: 1
-  TextRenderer: {fileID: 0}
+  VisibleWhenMurder: 0
+  CoatIsGone: 0
 --- !u!114 &11475536
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -671,11 +599,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 578c6b5577e7bbc41a33c1e3ec88c478, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Settings: {fileID: 11400000, guid: 125fabd5d9482254b8122b5037df3491, type: 2}
   VisibleWhenNormal: 1
   VisibleWhenCheating: 1
   VisibleWhenMurder: 1
-  TextRenderer: {fileID: 0}
+  CoatIsGone: 0
 --- !u!114 &11475538
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -701,8 +628,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Font: {fileID: 11400000, guid: 505b67d6795ce1941ab5cc3339bfe916, type: 2}
-  Text: Smells of man
-  Size: 1
+  Text: "Smells of \n   man"
+  Size: 1.25
   Leading: 0
   Tracking: 0
   ParagraphSpacing: 0

@@ -20,7 +20,6 @@ public class SinkDropScript : MonoBehaviour {
 		{
 			_WaitTime -= Time.deltaTime;
 			renderer.enabled = false;
-			Debug.Log("Waiting	");
 		}
 		else
 		{
@@ -37,7 +36,6 @@ public class SinkDropScript : MonoBehaviour {
 				renderer.enabled = false;
 			}
 			transform.localPosition = position;
-			Debug.Log("transform.localPosition.y " + transform.localPosition.y);
 		}
 	}
 }

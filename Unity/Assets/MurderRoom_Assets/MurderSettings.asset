@@ -12,8 +12,28 @@ MonoBehaviour:
   m_Name: MurderSettings
   m_EditorClassIdentifier: 
   DummyData:
-    CheatingLevel: 0
-    MurderLevel: 0
+    CheatingLevel: 2
+    MurderLevel: 2
+    CoatGone: 0
   BorderData:
     CheatingNeededForSuspicion: 2
     MurderNeededForSuspicion: 2
+  UseProgress: 1
+  MurderColorsSchemes:
+  - BackgroundColor: {r: .257352948, g: .251036584, b: .215722322, a: 1}
+    ImportantColor: {r: .219607845, g: .219607845, b: .219607845, a: 0}
+    UnimportantColor: {r: 0, g: 0, b: 0, a: 0}
+  - BackgroundColor: {r: .257352948, g: .239943773, b: .202476218, a: 1}
+    ImportantColor: {r: 0, g: 0, b: 0, a: 0}
+    UnimportantColor: {r: 0, g: 0, b: 0, a: 0}
+  CheatingColorSchemes:
+  - BackgroundColor: {r: .235294104, g: .233766839, b: .221453279, a: 1}
+    ImportantColor: {r: .324137926, g: 1, b: 0, a: 1}
+    UnimportantColor: {r: 0, g: 1, b: .213793278, a: 1}
+  - BackgroundColor: {r: .227941155, g: .227941155, b: .199448511, a: 1}
+    ImportantColor: {r: 1, g: .724137902, b: 0, a: 1}
+    UnimportantColor: {r: 1, g: .765517235, b: 0, a: 1}
+  NormalColorScheme:
+    BackgroundColor: {r: .219607845, g: .219607845, b: .219607845, a: 1}
+    ImportantColor: {r: .494117647, g: .494117647, b: .494117647, a: 1}
+    UnimportantColor: {r: .23137255, g: .23137255, b: .184313729, a: 1}

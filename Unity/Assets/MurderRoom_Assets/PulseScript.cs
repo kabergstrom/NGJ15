@@ -12,8 +12,13 @@ public class PulseScript : MonoBehaviour
 	public float MinDistance = 0;
 	public float MaxDistance = 0;
 	
+	public bool _Active = true;
+	
 	void Update () 
 	{
+		if (_Active == false)
+			return;
+		 
 		var cameraPos = Camera.main.transform.position;
 		
 		float xDist = (transform.position.x - cameraPos.x);
@@ -22,7 +27,10 @@ public class PulseScript : MonoBehaviour
 		var distance = Mathf.Sqrt(xDist*xDist + yDist*yDist);
 		
 		if (distance < MinDistance)
+		{
+			_Active = false;
 			return;
+		}
 		
 		float distanceModifier = 1;
 		
