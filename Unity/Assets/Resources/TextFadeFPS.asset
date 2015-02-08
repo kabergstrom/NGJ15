@@ -18,13 +18,13 @@ MonoBehaviour:
       m_Curve:
       - time: 0
         value: 11.3000002
-        inSlope: .0128920367
-        outSlope: .0128920367
+        inSlope: .00725192018
+        outSlope: .00725192018
         tangentMode: 10
-      - time: 25.3677235
-        value: 11.6270418
-        inSlope: .0128920367
-        outSlope: .0128920367
+      - time: 24.946249
+        value: 11.4809084
+        inSlope: .00725192018
+        outSlope: .00725192018
         tangentMode: 10
       m_PreInfinity: 2
       m_PostInfinity: 2
@@ -33,23 +33,23 @@ MonoBehaviour:
       m_Curve:
       - time: .397959173
         value: 8.69859791
-        inSlope: .331668288
-        outSlope: .331668288
+        inSlope: .414229453
+        outSlope: .414229453
         tangentMode: 10
-      - time: 20.5
-        value: 15.3658075
-        inSlope: .331668288
-        outSlope: .331668288
+      - time: 19.9136906
+        value: 16.782589
+        inSlope: .414229453
+        outSlope: .414229453
         tangentMode: 10
       m_PreInfinity: 2
       m_PostInfinity: 2
     FadeGradient:
       key0:
         serializedVersion: 2
-        rgba: 4294967295
+        rgba: 4281819520
       key1:
         serializedVersion: 2
-        rgba: 16777215
+        rgba: 3629440
       key2:
         serializedVersion: 2
         rgba: 0
@@ -93,13 +93,13 @@ MonoBehaviour:
       m_Curve:
       - time: 0
         value: 0
-        inSlope: .0128571438
-        outSlope: .0128571438
+        inSlope: 1
+        outSlope: 1
         tangentMode: 10
       - time: 35
-        value: .450000018
-        inSlope: .0128571438
-        outSlope: .0128571438
+        value: 35
+        inSlope: 1
+        outSlope: 1
         tangentMode: 10
       m_PreInfinity: 2
       m_PostInfinity: 2
@@ -107,27 +107,27 @@ MonoBehaviour:
       serializedVersion: 2
       m_Curve:
       - time: 0
-        value: 6.92581177
-        inSlope: .0140000107
-        outSlope: .0140000107
+        value: 0
+        inSlope: 2.43681526
+        outSlope: 2.43681526
         tangentMode: 10
-      - time: 20
-        value: 7.20581198
-        inSlope: .0140000107
-        outSlope: .0140000107
+      - time: 19.666666
+        value: 47.9240303
+        inSlope: 2.43681526
+        outSlope: 2.43681526
         tangentMode: 10
       m_PreInfinity: 2
       m_PostInfinity: 2
     FadeGradient:
       key0:
         serializedVersion: 2
-        rgba: 16777215
+        rgba: 4282136369
       key1:
         serializedVersion: 2
-        rgba: 4294967295
+        rgba: 1777958
       key2:
         serializedVersion: 2
-        rgba: 16777215
+        rgba: 8226191
       key3:
         serializedVersion: 2
         rgba: 4278190080
@@ -162,47 +162,47 @@ MonoBehaviour:
       m_NumColorKeys: 2
       m_NumAlphaKeys: 2
     ViewDirFactor: .75
-  - Type: 2
+  - Type: 3
     MinDistance:
       serializedVersion: 2
       m_Curve:
-      - time: -.037348669
-        value: .588398635
-        inSlope: .29836145
-        outSlope: .29836145
+      - time: 0
+        value: 0
+        inSlope: 1.52270484
+        outSlope: 1.52270484
         tangentMode: 10
-      - time: 34.9210014
-        value: 11.0186234
-        inSlope: .29836145
-        outSlope: .29836145
+      - time: 36.0888863
+        value: 54.9527206
+        inSlope: 1.52270484
+        outSlope: 1.52270484
         tangentMode: 10
       m_PreInfinity: 2
       m_PostInfinity: 2
     MaxDistance:
       serializedVersion: 2
       m_Curve:
-      - time: -.0457576029
-        value: 4.75296831
-        inSlope: .152003825
-        outSlope: .152003825
+      - time: 0
+        value: 0
+        inSlope: 4.29547071
+        outSlope: 4.29547071
         tangentMode: 10
-      - time: 20
-        value: 7.80000019
-        inSlope: .152003825
-        outSlope: .152003825
+      - time: 18.9889164
+        value: 81.56633
+        inSlope: 4.29547071
+        outSlope: 4.29547071
         tangentMode: 10
       m_PreInfinity: 2
       m_PostInfinity: 2
     FadeGradient:
       key0:
         serializedVersion: 2
-        rgba: 16777215
+        rgba: 4284510336
       key1:
         serializedVersion: 2
-        rgba: 4294967295
+        rgba: 1777958
       key2:
         serializedVersion: 2
-        rgba: 16777215
+        rgba: 8226191
       key3:
         serializedVersion: 2
         rgba: 4278190080
@@ -227,7 +227,82 @@ MonoBehaviour:
       ctime6: 0
       ctime7: 0
       atime0: 0
-      atime1: 24287
+      atime1: 65535
+      atime2: 65535
+      atime3: 65535
+      atime4: 0
+      atime5: 0
+      atime6: 0
+      atime7: 0
+      m_NumColorKeys: 2
+      m_NumAlphaKeys: 2
+    ViewDirFactor: .75
+  - Type: 4
+    MinDistance:
+      serializedVersion: 2
+      m_Curve:
+      - time: 0
+        value: 0
+        inSlope: 1.52270484
+        outSlope: 1.52270484
+        tangentMode: 10
+      - time: 36.0888863
+        value: 54.9527206
+        inSlope: 1.52270484
+        outSlope: 1.52270484
+        tangentMode: 10
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+    MaxDistance:
+      serializedVersion: 2
+      m_Curve:
+      - time: 0
+        value: 0
+        inSlope: 4.29547071
+        outSlope: 4.29547071
+        tangentMode: 10
+      - time: 18.9889164
+        value: 81.56633
+        inSlope: 4.29547071
+        outSlope: 4.29547071
+        tangentMode: 10
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+    FadeGradient:
+      key0:
+        serializedVersion: 2
+        rgba: 4279648877
+      key1:
+        serializedVersion: 2
+        rgba: 2350269037
+      key2:
+        serializedVersion: 2
+        rgba: 8226191
+      key3:
+        serializedVersion: 2
+        rgba: 4278190080
+      key4:
+        serializedVersion: 2
+        rgba: 0
+      key5:
+        serializedVersion: 2
+        rgba: 0
+      key6:
+        serializedVersion: 2
+        rgba: 0
+      key7:
+        serializedVersion: 2
+        rgba: 0
+      ctime0: 0
+      ctime1: 65535
+      ctime2: 65535
+      ctime3: 0
+      ctime4: 0
+      ctime5: 0
+      ctime6: 0
+      ctime7: 0
+      atime0: 0
+      atime1: 48380
       atime2: 65535
       atime3: 65535
       atime4: 0
@@ -236,4 +311,79 @@ MonoBehaviour:
       atime7: 0
       m_NumColorKeys: 2
       m_NumAlphaKeys: 3
+    ViewDirFactor: .75
+  - Type: 2
+    MinDistance:
+      serializedVersion: 2
+      m_Curve:
+      - time: -.037348669
+        value: .588398635
+        inSlope: .27163595
+        outSlope: .27163595
+        tangentMode: 10
+      - time: 30.0979767
+        value: 8.77423668
+        inSlope: .27163595
+        outSlope: .27163595
+        tangentMode: 10
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+    MaxDistance:
+      serializedVersion: 2
+      m_Curve:
+      - time: -.0457576029
+        value: 4.75296831
+        inSlope: 1.13278759
+        outSlope: 1.13278759
+        tangentMode: 10
+      - time: 19.9767876
+        value: 27.4342575
+        inSlope: 1.13278759
+        outSlope: 1.13278759
+        tangentMode: 10
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+    FadeGradient:
+      key0:
+        serializedVersion: 2
+        rgba: 3629440
+      key1:
+        serializedVersion: 2
+        rgba: 4281819520
+      key2:
+        serializedVersion: 2
+        rgba: 4211081215
+      key3:
+        serializedVersion: 2
+        rgba: 0
+      key4:
+        serializedVersion: 2
+        rgba: 0
+      key5:
+        serializedVersion: 2
+        rgba: 0
+      key6:
+        serializedVersion: 2
+        rgba: 0
+      key7:
+        serializedVersion: 2
+        rgba: 0
+      ctime0: 0
+      ctime1: 65535
+      ctime2: 65535
+      ctime3: 0
+      ctime4: 0
+      ctime5: 0
+      ctime6: 0
+      ctime7: 0
+      atime0: 0
+      atime1: 5204
+      atime2: 19275
+      atime3: 65535
+      atime4: 0
+      atime5: 0
+      atime6: 0
+      atime7: 0
+      m_NumColorKeys: 2
+      m_NumAlphaKeys: 4
     ViewDirFactor: .75

@@ -78,9 +78,7 @@ public class WeaponSystem : MonoBehaviour
 	public FMODAsset Crowbar_Swing;
 	public FMODAsset Small_Gun;
 	public FMODAsset Big_Gun;
-		
-	
-	
+	public FMODAsset Grenade_throw;
 	
 	
 	
@@ -191,6 +189,10 @@ public class WeaponSystem : MonoBehaviour
             GameObject obj = (GameObject)Instantiate(Prefabs.GranadePrefab, GranadeStartPos.position, Quaternion.identity);
             obj.GetComponent<Rigidbody>().AddForce(_Transform.TransformVector(WeaponSettings.GranadeThrowForce), ForceMode.Impulse);
             GranadeCount--;
+            if (Grenade_throw != null)
+            {
+            	FMOD_StudioSystem.instance.PlayOneShot(Grenade_throw, transform.position);
+            }
         }
     }
 }
