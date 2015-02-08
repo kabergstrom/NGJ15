@@ -156,6 +156,15 @@ ModelImporter:
     100300: WindowBroken02
     100302: BloodTowel02
     100304: BloodyTowel01
+    100306: Plant01
+    100308: Plant02
+    100310: Plant03
+    100312: Plant04
+    100314: Fonster010
+    100316: Fonster08
+    100318: Fonster09
+    100320: Fonster012
+    100322: Fonster013
     400000: Bathroom_Doorframe01
     400002: BathRoom_Floor
     400004: Bathroom_Wall01
@@ -309,6 +318,15 @@ ModelImporter:
     400300: WindowBroken02
     400302: BloodTowel02
     400304: BloodyTowel01
+    400306: Plant01
+    400308: Plant02
+    400310: Plant03
+    400312: Plant04
+    400314: Fonster010
+    400316: Fonster08
+    400318: Fonster09
+    400320: Fonster012
+    400322: Fonster013
     2300000: Bathroom_Doorframe01
     2300002: BathRoom_Floor
     2300004: Bathroom_Wall01
@@ -395,6 +413,15 @@ ModelImporter:
     2300166: WindowBroken02
     2300168: BloodTowel02
     2300170: BloodyTowel01
+    2300172: Plant01
+    2300174: Plant02
+    2300176: Plant03
+    2300178: Plant04
+    2300180: Fonster010
+    2300182: Fonster08
+    2300184: Fonster09
+    2300186: Fonster012
+    2300188: Fonster013
     3300000: Bathroom_Doorframe01
     3300002: BathRoom_Floor
     3300004: Bathroom_Wall01
@@ -481,6 +508,15 @@ ModelImporter:
     3300166: WindowBroken02
     3300168: BloodTowel02
     3300170: BloodyTowel01
+    3300172: Plant01
+    3300174: Plant02
+    3300176: Plant03
+    3300178: Plant04
+    3300180: Fonster010
+    3300182: Fonster08
+    3300184: Fonster09
+    3300186: Fonster012
+    3300188: Fonster013
     4300000: Stairs01
     4300002: Stairs02
     4300004: BathRoom_Floor
@@ -567,6 +603,15 @@ ModelImporter:
     4300166: Peddestal01
     4300168: BloodTowel02
     4300170: BloodyTowel01
+    4300172: Plant01
+    4300174: Plant02
+    4300176: Plant03
+    4300178: Plant04
+    4300180: Fonster08
+    4300182: Fonster09
+    4300184: Fonster010
+    4300186: Fonster012
+    4300188: Fonster013
     9500000: //RootNode
   materials:
     importMaterials: 1
@@ -587,7 +632,7 @@ ModelImporter:
     isReadable: 1
   meshes:
     lODScreenPercentages: []
-    globalScale: .00999999978
+    globalScale: .100000001
     meshCompression: 0
     addColliders: 0
     importBlendShapes: 1

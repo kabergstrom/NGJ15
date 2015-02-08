@@ -164,7 +164,7 @@ GameObject:
   - 20: {fileID: 2023946}
   - 92: {fileID: 9223946}
   - 124: {fileID: 12423946}
-  - 81: {fileID: 8123946}
+  - 114: {fileID: 11436692}
   m_Layer: 0
   m_Name: Main Camera
   m_TagString: MainCamera
@@ -202,6 +202,7 @@ GameObject:
   - 114: {fileID: 11423946}
   - 114: {fileID: 11404432}
   - 114: {fileID: 11426448}
+  - 114: {fileID: 11436694}
   m_Layer: 0
   m_Name: Player
   m_TagString: Player
@@ -427,7 +428,7 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 123954}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -45.7799988, y: 3.1099999, z: -44.5400009}
+  m_LocalPosition: {x: 0, y: 1.23000002, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 423952}
@@ -795,13 +796,6 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 1, y: 1, z: 1}
   m_Center: {x: 0, y: 0, z: 0}
---- !u!81 &8123946
-AudioListener:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 123950}
-  m_Enabled: 1
 --- !u!92 &9223946
 Behaviour:
   m_ObjectHideFlags: 1
@@ -975,6 +969,10 @@ MonoBehaviour:
   GranadeCount: 2
   NormalGunAmmo: 0
   BetterGunAmmo: 1000
+  Crowbar_Swing: {fileID: 11400000, guid: 57cfde8dc68bb8540bd4d59db23c82b8, type: 2}
+  Small_Gun: {fileID: 11400000, guid: 333cdece63ab5c64a8fa972dece703f0, type: 2}
+  Big_Gun: {fileID: 11400000, guid: 0c0eac184892c1b4e9415d7de9aa3e23, type: 2}
+  Grenade_throw: {fileID: 11400000, guid: 31e73aff5296b3447bcdae407411ea58, type: 2}
 --- !u!114 &11423946
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -1081,6 +1079,33 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Damage: 5
   InHit: 0
+--- !u!114 &11436692
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 123950}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dcc06d36d3b753d489e4f95913ec574a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  pluginPaths: []
+--- !u!114 &11436694
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 123954}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: db5a561bb47297b43afd6428db715a9e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  DebugPlaySound: 1
+  StepAsset: {fileID: 11400000, guid: 3bd35ced04d1b754b9c72e7a1386d642, type: 2}
+  StepThreshold: 40
+  StepWeight: 10
 --- !u!114 &11450318
 MonoBehaviour:
   m_ObjectHideFlags: 1
