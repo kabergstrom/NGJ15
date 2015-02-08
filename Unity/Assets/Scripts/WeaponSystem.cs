@@ -25,6 +25,7 @@ public class WeaponSystem : MonoBehaviour
         public GameObject Crowbar;
         public GameObject NormalGun;
         public GameObject BetterGun;
+        public TypogenicText NormalGunAmmoText;
         public TypogenicText BetterGunAmmoText;
     }
 
@@ -97,6 +98,7 @@ public class WeaponSystem : MonoBehaviour
 
     void Update()
     {
+        InventoryItems.NormalGunAmmoText.Text = NormalGunAmmo.ToString();
         InventoryItems.BetterGunAmmoText.Text = "Ammo: " + BetterGunAmmo;
 
         DoWeapons();
