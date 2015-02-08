@@ -1,8 +1,10 @@
 ﻿using UnityEngine;
 using System.Collections;
 
-public class TriggerWhenRead : MonoBehaviour {
-
+public class TriggerWhenRead : MonoBehaviour 
+{
+	public bool IncreaseCheating = false;
+	public bool IncreaseMurder = false;
 	// Use this for initialization
 	void Start () {
 	
