@@ -199,7 +199,7 @@ GameObject:
   - 23: {fileID: 4497437}
   - 114: {fileID: 4497436}
   - 114: {fileID: 4497435}
-  m_Layer: 0
+  m_Layer: 11
   m_Name: Text
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -8952,7 +8952,7 @@ GameObject:
   - 65: {fileID: 176902109}
   - 114: {fileID: 176902108}
   - 114: {fileID: 176902107}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: PlotTwistActivator
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -9127,7 +9127,7 @@ GameObject:
   - 65: {fileID: 182111513}
   - 114: {fileID: 182111512}
   - 114: {fileID: 182111511}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: MeleeMonsterActivator1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -9229,7 +9229,7 @@ Transform:
   - {fileID: 2135939040}
   - {fileID: 1056917763}
   m_Father: {fileID: 0}
-  m_RootOrder: 220
+  m_RootOrder: 219
 --- !u!54 &184550703
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -9446,7 +9446,7 @@ Transform:
   - {fileID: 271709307}
   - {fileID: 579364431}
   m_Father: {fileID: 0}
-  m_RootOrder: 217
+  m_RootOrder: 216
 --- !u!54 &189935248
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -14002,7 +14002,7 @@ GameObject:
   - 65: {fileID: 272190767}
   - 114: {fileID: 272190766}
   - 114: {fileID: 272190765}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: FloorDeactivator
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -29966,7 +29966,7 @@ Transform:
   - {fileID: 1866905022}
   - {fileID: 596587454}
   m_Father: {fileID: 0}
-  m_RootOrder: 218
+  m_RootOrder: 217
 --- !u!54 &522743882
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -30776,7 +30776,7 @@ Transform:
   m_PrefabParentObject: {fileID: 423954, guid: 241176c786ec38f4b9cdb781de626584, type: 2}
   m_PrefabInternal: {fileID: 677897537}
   m_GameObject: {fileID: 537358783}
-  m_LocalRotation: {x: 0, y: .722956717, z: 0, w: .690893352}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: -11.1400003, y: 1.05999994, z: 3.8499999}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
@@ -33511,7 +33511,7 @@ Transform:
   - {fileID: 342216818}
   - {fileID: 438386770}
   m_Father: {fileID: 0}
-  m_RootOrder: 194
+  m_RootOrder: 193
 --- !u!54 &571158072
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -40394,7 +40394,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 423954, guid: 241176c786ec38f4b9cdb781de626584, type: 2}
       propertyPath: m_LocalRotation.y
-      value: .722956717
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 423954, guid: 241176c786ec38f4b9cdb781de626584, type: 2}
       propertyPath: m_LocalRotation.z
@@ -40402,7 +40402,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 423954, guid: 241176c786ec38f4b9cdb781de626584, type: 2}
       propertyPath: m_LocalRotation.w
-      value: .690893352
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 423954, guid: 241176c786ec38f4b9cdb781de626584, type: 2}
       propertyPath: m_RootOrder
@@ -42795,7 +42795,7 @@ Transform:
   - {fileID: 892079739}
   - {fileID: 2040348034}
   m_Father: {fileID: 0}
-  m_RootOrder: 219
+  m_RootOrder: 218
 --- !u!54 &731884032
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -43095,7 +43095,7 @@ GameObject:
   - 65: {fileID: 736459841}
   - 114: {fileID: 736459840}
   - 114: {fileID: 736459839}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: MonsterTrigger6
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -46459,7 +46459,7 @@ Transform:
   - {fileID: 1285408387}
   - {fileID: 1412125292}
   m_Father: {fileID: 0}
-  m_RootOrder: 175
+  m_RootOrder: 174
 --- !u!23 &789254435
 Renderer:
   m_ObjectHideFlags: 0
@@ -49789,7 +49789,7 @@ GameObject:
   - 23: {fileID: 858538467}
   - 54: {fileID: 858538466}
   - 114: {fileID: 858538465}
-  m_Layer: 0
+  m_Layer: 11
   m_Name: Bullet
   m_TagString: Bullet
   m_Icon: {fileID: 0}
@@ -56083,7 +56083,7 @@ Transform:
   m_Children:
   - {fileID: 569748248}
   m_Father: {fileID: 0}
-  m_RootOrder: 192
+  m_RootOrder: 195
 --- !u!114 &975205441
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -57452,7 +57452,7 @@ GameObject:
   - 65: {fileID: 999936422}
   - 114: {fileID: 999936421}
   - 114: {fileID: 999936420}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: MonsterTrigger5
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -58603,7 +58603,7 @@ Transform:
   - {fileID: 1218389949}
   - {fileID: 1634742569}
   m_Father: {fileID: 0}
-  m_RootOrder: 207
+  m_RootOrder: 206
 --- !u!54 &1016087641
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -60683,7 +60683,7 @@ Transform:
   - {fileID: 1152117577}
   - {fileID: 1580479853}
   m_Father: {fileID: 0}
-  m_RootOrder: 193
+  m_RootOrder: 192
 --- !u!54 &1050764282
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -67925,7 +67925,7 @@ Transform:
   - {fileID: 1832954838}
   - {fileID: 492796802}
   m_Father: {fileID: 0}
-  m_RootOrder: 195
+  m_RootOrder: 194
 --- !u!1 &1172790762
 GameObject:
   m_ObjectHideFlags: 0
@@ -68487,7 +68487,7 @@ Transform:
   - {fileID: 735413408}
   - {fileID: 736528062}
   m_Father: {fileID: 0}
-  m_RootOrder: 173
+  m_RootOrder: 172
 --- !u!23 &1181895214
 Renderer:
   m_ObjectHideFlags: 0
@@ -72462,7 +72462,7 @@ Transform:
   - {fileID: 166823476}
   - {fileID: 1042991618}
   m_Father: {fileID: 0}
-  m_RootOrder: 216
+  m_RootOrder: 215
 --- !u!54 &1237826005
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -74431,7 +74431,7 @@ Transform:
   - {fileID: 1876713289}
   - {fileID: 1775056359}
   m_Father: {fileID: 0}
-  m_RootOrder: 172
+  m_RootOrder: 171
 --- !u!23 &1263070456
 Renderer:
   m_ObjectHideFlags: 0
@@ -74995,7 +74995,7 @@ GameObject:
   - 65: {fileID: 1272348605}
   - 114: {fileID: 1272348604}
   - 114: {fileID: 1272348603}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: MonsterTrigger3
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -81755,7 +81755,7 @@ Transform:
   - {fileID: 747092810}
   - {fileID: 1006138458}
   m_Father: {fileID: 0}
-  m_RootOrder: 166
+  m_RootOrder: 165
 --- !u!23 &1406516591
 Renderer:
   m_ObjectHideFlags: 0
@@ -84794,7 +84794,7 @@ Transform:
   - {fileID: 952966291}
   - {fileID: 1934189082}
   m_Father: {fileID: 0}
-  m_RootOrder: 174
+  m_RootOrder: 173
 --- !u!23 &1460873134
 Renderer:
   m_ObjectHideFlags: 0
@@ -91401,7 +91401,7 @@ Transform:
   - {fileID: 58134922}
   - {fileID: 1976292744}
   m_Father: {fileID: 0}
-  m_RootOrder: 208
+  m_RootOrder: 207
 --- !u!54 &1570380265
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -91722,7 +91722,7 @@ Transform:
   - {fileID: 1174009249}
   - {fileID: 297192150}
   m_Father: {fileID: 0}
-  m_RootOrder: 209
+  m_RootOrder: 208
 --- !u!54 &1575111799
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -92052,7 +92052,7 @@ Transform:
   - {fileID: 2146985098}
   - {fileID: 940002100}
   m_Father: {fileID: 0}
-  m_RootOrder: 164
+  m_RootOrder: 163
 --- !u!23 &1583970418
 Renderer:
   m_ObjectHideFlags: 0
@@ -93909,7 +93909,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 495294, guid: c8e71dec8e23d04458491c4bd9d1080a, type: 2}
       propertyPath: m_RootOrder
-      value: 4
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 3306402, guid: c8e71dec8e23d04458491c4bd9d1080a, type: 2}
       propertyPath: m_Mesh
@@ -94769,7 +94769,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 171
+  m_RootOrder: 176
 --- !u!1001 &1627367090
 Prefab:
   m_ObjectHideFlags: 0
@@ -96688,7 +96688,7 @@ Transform:
   m_LocalScale: {x: 10, y: .100000001, z: 20}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 163
+  m_RootOrder: 166
 --- !u!1 &1664741119
 GameObject:
   m_ObjectHideFlags: 0
@@ -100532,7 +100532,7 @@ Transform:
   - {fileID: 1536717876}
   - {fileID: 1667925110}
   m_Father: {fileID: 0}
-  m_RootOrder: 165
+  m_RootOrder: 164
 --- !u!23 &1744067501
 Renderer:
   m_ObjectHideFlags: 0
@@ -100615,7 +100615,7 @@ GameObject:
   - 65: {fileID: 1744816149}
   - 114: {fileID: 1744816148}
   - 114: {fileID: 1744816147}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: MonsterTrigger4
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -102110,7 +102110,7 @@ Transform:
   - {fileID: 1992060527}
   - {fileID: 385166940}
   m_Father: {fileID: 0}
-  m_RootOrder: 214
+  m_RootOrder: 220
 --- !u!1 &1771012011
 GameObject:
   m_ObjectHideFlags: 0
@@ -102152,7 +102152,7 @@ Transform:
   - {fileID: 772372821}
   - {fileID: 1844476222}
   m_Father: {fileID: 0}
-  m_RootOrder: 215
+  m_RootOrder: 214
 --- !u!54 &1771012013
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -104514,7 +104514,7 @@ Transform:
   - {fileID: 2108881618}
   - {fileID: 25289157}
   m_Father: {fileID: 0}
-  m_RootOrder: 206
+  m_RootOrder: 209
 --- !u!1 &1806067916
 GameObject:
   m_ObjectHideFlags: 0
@@ -107651,7 +107651,7 @@ Transform:
   - {fileID: 635826423}
   - {fileID: 703751219}
   m_Father: {fileID: 0}
-  m_RootOrder: 176
+  m_RootOrder: 175
 --- !u!114 &1860679986
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -110041,7 +110041,7 @@ GameObject:
   - 65: {fileID: 1896524092}
   - 114: {fileID: 1896524091}
   - 114: {fileID: 1896524090}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: MonsterTrigger2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -124792,7 +124792,7 @@ GameObject:
   - 65: {fileID: 2117741728}
   - 114: {fileID: 2117741727}
   - 114: {fileID: 2117741726}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: MonsterTrigger7
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -125388,7 +125388,7 @@ GameObject:
   - 23: {fileID: 2129845627}
   - 114: {fileID: 2129845626}
   - 114: {fileID: 2129845625}
-  m_Layer: 0
+  m_Layer: 11
   m_Name: Text
   m_TagString: Untagged
   m_Icon: {fileID: 0}
