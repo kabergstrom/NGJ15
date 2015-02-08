@@ -203,6 +203,7 @@ GameObject:
   - 114: {fileID: 11404432}
   - 114: {fileID: 11426448}
   - 114: {fileID: 11436694}
+  - 114: {fileID: 11427162}
   m_Layer: 0
   m_Name: Player
   m_TagString: Player
@@ -1066,6 +1067,21 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Health: 100
+--- !u!114 &11427162
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 123954}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: db5a561bb47297b43afd6428db715a9e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  DebugPlaySound: 1
+  StepAsset: {fileID: 11400000, guid: 3bd35ced04d1b754b9c72e7a1386d642, type: 2}
+  StepThreshold: 40
+  StepWeight: 10
 --- !u!114 &11429196
 MonoBehaviour:
   m_ObjectHideFlags: 1
